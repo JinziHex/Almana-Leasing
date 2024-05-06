@@ -1,0 +1,314 @@
+.arabic-render div#logo {
+    display: inline-block;
+    float: right;
+}
+
+.arabic-render .menu-header ul li {
+    text-decoration: none;
+    float: right;
+}
+
+.arabic-render .hed {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.arabic-render  .menu-right {
+    float: left;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row-reverse;
+        align-items: center;
+}
+
+.arabic-render  .download-app a {
+   
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px 0px 10px 15px;
+}
+
+.arabic-render .mobmenur-container {
+    position: absolute;
+    left: 0;
+        right: auto;
+            margin-left: 35px;
+}
+
+
+.arabic-render   .section3 .list-cars .blocks .caption {
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
+.arabic-render  .section3 .list-cars .blocks .caption .left-wrap {
+    float: right;
+    text-align: right;
+}
+
+.arabic-render  .section3 .list-cars .blocks .caption .middle-wrap {
+    /* text-align: center; */
+    display: inline-block;
+    width: 100%;
+    display: block;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: right;
+    justify-content: end;
+}
+
+.arabic-render  .section3 .list-cars .blocks .caption .middle-wrap h5 {
+
+    padding-left: 25px;
+      padding-right: 0px;
+}
+
+.arabic-render  .mbdiv {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.arabic-render  .section6 .content-wrap {
+    text-align: right;
+    margin-top: 8%;
+}
+
+.arabic-render  .section6 .content-wrap p {
+   
+    text-align: right;
+  
+    margin: 6% 0 0 10%;
+   
+}
+
+.arabic-render  .footer-meunus .footer-wrap {
+       text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.arabic-render   .arbv {
+    flex-direction: row-reverse;
+}
+
+.arabic-render  .banner-title {
+   text-align: right;
+    left: auto;
+   
+    right: 20%;
+}
+
+
+.arabic-render .our-team .our-teams h4 {
+  
+    text-align: right;
+}
+
+
+.arabic-render .our-team .our-teams h6 {
+  
+    display: inherit;
+   
+    text-align: right;
+}
+
+.arabic-render  .search-form form {
+  
+    display: flex;
+    flex-direction: row-reverse;
+    /* text-align: right; */
+}
+.arabic-render  .form-control {
+   
+    text-align: right;
+}
+
+.arabic-render  .form-group {
+ 
+    text-align: right;
+}
+.arabic-render  form.wpcf7-form .row {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.arabic-render form.wpcf7-form .row input {
+    text-align: right;
+}
+
+.arabic-render form.wpcf7-form .row label {
+    text-align: right;
+}
+
+
+.arabic-render  .toggle-form textarea {
+    text-align: right;
+}
+
+
+.arabic-render  input.wpcf7-form-control.wpcf7-file {
+    direction: rtl;
+}
+
+
+.arabic-render .contact-block textarea{
+      text-align: right;
+}
+.arabic-render  .contact-us .row {
+   
+    flex-direction: row-reverse;
+        text-align: right;
+
+}
+.arabic-render  .contact-us .cleft {
+  
+    padding: 5% 10% 5% 0%;
+}
+.arabic-render   .footer-meunus #mc4wp-form-1 input[type=email] {
+   
+    text-align: right;
+}
+
+.arabic-render  .filter-bar .dropdown.Choose {
+    float: right;
+  
+}
+.arabic-render  .filter-bar .dropdown.Choose.sort {
+    float: left;
+   
+}
+
+.arabic-render   .car-list-pg .list-details {
+   
+    display: flex;
+    flex-direction: row-reverse;
+}
+.arabic-render  .list-details .mrgn {
+  
+    text-align: right;
+}
+
+.arabic-render  .car-list .row {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.arabic-render  .car-single-sec .row {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.arabic-render  .car-single-txt {
+    text-align: right;
+}
+.arabic-render  .car-single-txt .carSpecs p {
+  
+    float: right;
+}
+
+.arabic-render   form.row {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.arabic-render  .form-check.terms-agree {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: baseline;
+}
+.arabic-render  .card-header h2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.arabic-render  .car-list-pg.car-summary-pg .summary-date .bill-list {
+    width: 100%;
+    margin: auto;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.arabic-render  .car-list-pg.car-summary-pg .summary-date .bill-list .titl {
+    color: #f25d25;
+    text-align: left;
+}
+
+.arabic-render  .modal-body .row {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.arabic-render .modal-footer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.arabic-render .modal-body .form-group ul li {
+ 
+    display: flex;
+    flex-direction: row-reverse;
+  
+}
+
+.arabic-render  .login-wrapper {
+   
+    flex-direction: row-reverse;
+}
+.arabic-render  .login-sec.reg-sec .why-reg {
+      display: flex;
+    flex-direction: row-reverse;
+}
+
+.arabic-render  .login-sec.reg-sec .why-reg i {
+    margin-left: 10px;
+   
+}
+
+.arabic-render  .login-sec h3 {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 36px;
+    text-align: right;
+}
+.arabic-render  .rest  .select2-container {
+   
+  
+    left: auto;
+    right: 16px;
+}
+
+.arabic-render  input#VerificationCode {
+    padding-right: 8em !important;
+    text-align: right;
+    padding-left: 0 !important;
+}
+
+.arabic-render  .mobilecode .select2-container {
+   
+    left: auto;
+    right: 15px;
+    top: 36px;
+   
+}
+
+.arabic-render  .section2 .row {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.arabic-render  .section3 .row {
+    display: flex;
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,1737 @@
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1370px;
+  }
+}
+@media screen and (min-width: 1601px) {
+  .container {
+     max-width: 1455px;
+  }
+}
+@media screen and (max-width: 1920px) {
+    
+.dropdown.Choose.headrlog.open  .dropdown-menu>li>a {
+    display: block;
+    padding: 3px 11px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.flag {
+    display: flex;
+    margin-top:0px;
+}
+
+  .headrlog ul.dropdown-menu li a {
+       font-family: 'Roboto', sans-serif !important;
+    font-size: 12px;
+    }
+  .container {
+    max-width: 1760px;
+  }
+  div#bulletS:after {
+    content: "";
+    width: 100%;
+    /* background: red; */
+    height: 100vh;
+    background-image: url(https://webprojects.hexeam.in/almana-rentals/assets/front/website/images/why-choose-us-img.png);
+    z-index: 111;
+    right: 0;
+    left: 56%;
+    /* top: 0%; */
+    bottom: -300%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.page.inner-bpage .banner, .single.inner-bpage .banner {
+    height: 807px;
+}
+}
+@media screen and (min-width: 1921px) {
+  .container {
+    max-width: 1870px;
+  }
+  div#bulletS:after {
+    content: "";
+    width: 100%;
+    /* background: red; */
+    height: 100vh;
+    background-image: url(https://webprojects.hexeam.in/almana-rentals/assets/front/website/images/why-choose-us-img.png);
+    z-index: 111;
+    right: 0;
+    left: 56%;
+    /* top: 0%; */
+    bottom: -300%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+}
+
+@media screen and (max-width: 1680px){
+  .container{
+    max-width: 1520px;
+  }
+  .download-app, .register{
+    padding: 1% 0 0 0%;
+  }
+  .menu-right .price-trasnsilate.dropdown{
+    padding-top: 2px;
+  }
+  .page-template-carrental .section3, .section3{
+    padding: 5% 6% 6% 6%;
+  }
+  .col-sm-12.col-md-5.right-content #bulletS li{
+    line-height: 2.4em;
+    font-size: 17px;
+  }
+  .footer-meunus .footer-wrap .blk-wrap.ft2 p{
+    font-size: 16px;
+  }
+  .services-list .service-elements {
+    width: 88%;
+  }
+}
+@media screen and (max-width: 1600px){
+ 	.container{
+  	max-width: 1455px;
+ 	}
+  #access{
+    padding: 2% 0 0 5%;
+  }
+  .register a {
+    padding: 10px 15px 10px 0px;
+}
+
+
+.download-app a {
+    padding: 10px 30px;
+}
+#logo img {
+    margin-left: -1.5em;
+}
+.menu-header ul li a {
+    font-size: 16px;
+    }
+  /* .download-app a{
+    padding: 5px 24px 10px 33px;
+  } */
+  .menu-right .price-trasnsilate.dropdown {
+    padding-top: 0;
+  }
+  .section3 .col-md-5{
+    -ms-flex: 0 0 40.666667%;
+    flex: 0 0 40.666667%;
+    max-width: 40.666667%;
+  }
+  .section3 .col-md-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 18.666667%;
+    max-width: 18.666667%;
+  }
+  .section4 .col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 56.333333%;
+    max-width: 56.333333%;
+  }
+  .section4 .col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 42.666667%;
+    max-width: 42.666667%;
+  }
+  .section4 .left-content p{
+    font-size: 16px;
+    line-height: 2.2em;
+  }
+  .col-sm-12.col-md-5.right-content #bulletS li{
+    padding: 8px 10px;
+  }
+  .footer-meunus .footer-wrap .blk-wrap p{
+    font-size: 15px;
+  }
+.download-app a {
+    padding: 10px 25px 10px 30px;
+}
+}
+
+@media screen and (max-width: 1440px){
+  .container{
+    max-width: 1320px;
+  }
+  #access {
+      padding: 2% 0 0 4%;
+  }
+  
+ .arabic-render  #access {
+       padding: 2% 3% 0 3%
+}
+  .page-template-carrental .section3, .section3 {
+    padding: 5% 4% 0% 4%;
+  }
+  .col-sm-12.col-md-5.right-content #bulletS li {
+    padding: 12px 9px;
+    line-height: 1.6em;
+    font-size: 15px;
+  }
+  .footer-meunus .footer-wrap .ft2 {
+    width: 25%;
+  }
+  .footer-meunus .footer-wrap .blk-wrap.ft2 p {
+    font-size: 15px;
+    line-height: 2.5em;
+  }
+  .footer-meunus .footer-wrap .ft3, .footer-meunus .footer-wrap .ft5 {
+    width: 25%;
+  }
+  .inqform p{
+    max-width: 50%;
+  }
+  .section3 .list-cars .blocks .caption h4 {
+    font-size: 24px;
+  }
+  .download-app, .register {
+    padding: 1.8% 0 0 0%;
+  }
+    /*my responsive*/
+  .footer-meunus .footer-wrap .blk-wrap {
+    width: 20%;
+}
+
+}
+@media screen and (max-width: 1366px){
+    .download-app img {
+    margin-top: -9px;
+}
+    .flag {
+    display: flex;
+    margin-top:0px;
+    justify-content: center;
+
+    
+}
+    .dropdown.Choose.headrlog.open  .dropdown-menu>li>a {
+    display: block;
+    padding: 3px 11px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+  .headrlog ul.dropdown-menu li a {
+       font-family: 'Roboto', sans-serif !important;
+    font-size: 12px;
+    }
+    
+    div#bulletS:after {
+    content: "";
+    width: 100%;
+    /* background: red; */
+    height: 100vh;
+    background-image: url(https://webprojects.hexeam.in/almana-rentals/assets/front/website/images/why-choose-us-img.png);
+    z-index: 111;
+    right: 0;
+    left: 40%;
+    /* top: 0%; */
+    bottom: -51%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+    .page.inner-bpage .banner, .single.inner-bpage .banner {
+    height: 700px;
+}
+  .container{
+    max-width: 1260px;
+  }
+  .download-app a {
+    padding: 5px 0px 10px 33px;
+  }
+  .register a {
+    padding: 10px 15px 10px 15px;
+}
+  .banner-title{
+    left: 13%;
+  }
+  .banner-title h1 {
+    font-size: 9rem;
+  }
+  .banner-title h1 span {
+    font-size: 15rem;
+    line-height: 1.2em;
+  }
+  .section3 .col-md-5 {
+    -ms-flex: 0 0 40.666667%;
+    flex: 0 0 39.666667%;
+    max-width: 39.666667%;
+  }
+  .section3 .col-md-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 19.666667%;
+    max-width: 19.666667%;
+  }
+  .section4 .col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 54.333333%;
+    max-width: 54.333333%;
+  }
+  .section4 .col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 44.666667%;
+    max-width: 44.666667%;
+  }
+  .col-sm-12.col-md-5.right-content{
+    padding-left: 5%;
+  }
+  .col-sm-12.col-md-5.right-content #bulletS li {
+    padding: 13px 9px;
+    /*line-height: 2.6em;*/
+  }
+  .section6 .content-wrap h4 {
+    font-size: 57px;
+  }
+  .section6 .content-wrap p{
+    max-width: 92%;
+  }
+  .section6 .content-wrap {
+    margin-top: 13%;
+  }
+  .section5 h1 {
+    font-size: 48px;
+  }
+  .footer-meunus h4 {
+    font-size: 20px;
+  }
+  .home #contactForm .col-lg-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 39.666667%;
+    max-width: 39.666667%;
+  }
+  .home #contactForm .col-lg-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 19.666667%;
+    max-width: 19.666667%;
+  }
+  .clients-list h4 p{
+    padding: 15px 5px;
+  }
+  .our-team .our-teams {
+    width: 100%;
+  }
+  .our-team p{
+    max-width: 50%;
+  }
+  .abt-cmpy p{
+    max-width: 60%;
+  }
+  .services-list .service-elements {
+    width: 90%;
+  }
+  
+  
+  /*my responsive*/
+  .footer-meunus .footer-wrap .blk-wrap {
+    width: 25%;
+}
+.menu-header ul li a {
+  font-size: 14px;
+}
+#access {
+  padding: 2% 0 0 7%;
+
+}
+}
+@media screen and (max-width: 1280px){
+    
+  .section3 #price-fl select, .section3 #select-opt select{
+    font-size: 16px;
+  }
+  .section3 .col-md-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 20.666667%;
+    max-width: 20.666667%;
+  }
+  .section3 .list-cars .blocks .caption h4 {
+    font-size: 26px;
+  }
+  .section3 .list-cars .blocks .caption .left-wrap p {
+    font-size: 16px;
+  }
+  .register a, .download-app a {
+   
+    font-size: 14px;
+   
+}
+.menu-header ul li a {
+  
+    font-size: 14px;
+   
+}
+.page.inner-bpage .banner, .single.inner-bpage .banner {
+    height: 655px;
+}
+}
+@media screen and (max-width: 1200px){
+    #access {
+    padding: 2% 0 0 5%;
+}
+#logo img {
+    margin-left: 0;
+    max-width: 200px;
+}
+.menu-header ul li a {
+    font-size: 12px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    
+}
+@media screen and (max-width: 1024px){
+      .register a, .download-app a {
+   
+    font-size: 14px;
+   
+}
+.menu-header ul li a {
+  
+    font-size: 14px;
+   
+}
+    body {
+        padding-top: 50px;
+        padding-top: 0 !important;
+        padding-bottom:30px!important;
+        padding-bottom:0 !important;
+    }
+
+  #access{
+    display: none;
+  }
+  .menu-right{
+    display: none;
+  }
+.arabic-render    .menu-right{
+    display: none;
+  }
+  .mob-menu-header-holder{
+    background-color: rgba(247, 247, 247, 0) !important;
+    position: fixed;
+    position: absolute !important;
+  }
+  .slider_overLay{
+    top: -52px;
+  }
+  html, body{
+    overflow-y: auto !important;
+  }
+  .banner-title{
+    bottom: 25%;
+  }
+  .banner-title h1 {
+    font-size: 6rem;
+    line-height: 1.2em;
+  }
+  .banner-title h1 span {
+    font-size: 10rem;
+  }
+  #wrapper #contactForm{
+    top: -73px;
+    width: 96%;
+    padding: 40px;
+  }
+  #contactForm .input-container{
+    padding: 3px 20px;
+  }
+  #contactForm img {
+    width: 5%;
+    height: 100%;
+    padding-top: 13px;
+  }
+  #contactForm .btn-snd{
+    top: -80px;
+    height: 174px;
+  }
+  .mobmenu-right-panel .current-menu-item span{
+    text-align: center;
+    display: inline-block;
+  }
+  .download-app, .register{
+    text-align: center;
+    float: none;
+    padding: 10px 20px;
+  }
+  .price-trasnsilate.dropdown{
+    padding: 10px 20px;
+  }
+  .section3 .col-md-5{
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 36.666667%;
+    max-width: 36.666667%;
+  }
+  .section3 .col-md-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 25.666667%;
+    max-width: 25.666667%;
+  }
+  .home #contactForm .col-lg-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 20.666667%;
+    max-width: 20.666667%;
+  }
+  .home #contactForm .col-lg-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 38.666667%;
+    max-width: 38.666667%;
+  }
+  #wrapper #contactForm{
+    padding: 40px 40px 0 40px;
+    top: -63px;
+  }
+  .section3 .list-cars .blocks .caption .left-wrap p span img {
+    margin: -4px 3px 0 -1px;
+  }
+  .section3 .list-cars .blocks .caption .left-wrap p {
+    font-size: 14px;
+  }
+  .section3 .list-cars .blocks .caption h4 {
+    font-size: 22px;
+  }
+  .section3 .list-cars .blocks .caption .middle-wrap h5 {
+    font-size: 15px;
+  }
+
+  .section3 .list-cars .blocks .caption .middle-wrap p {
+    font-size: 14px;
+  }
+  .section3 .list-cars .blocks .caption .right-wrap{
+    right: 9px;
+  }
+  #myVideo{
+    margin-top: -84px;
+  }
+  .slider_overLay{
+    height: 110.5%;
+  }
+  .col-sm-12.col-md-5.right-content #bulletS li {
+    padding: 4px 9px;
+    line-height: 1.6em;
+  }
+  .section6 img{
+    width:  100%;
+  }
+  .section6 .content-wrap h4 {
+    font-size: 45px;
+  }
+  .section6 .content-wrap h5 {
+    font-size: 50px;
+  }
+  .section6 .content-wrap {
+    margin-top: 10%;
+  }
+  .section5 h1 {
+    font-size: 40px;
+  }
+  .footer-meunus h4 {
+    font-size: 19px;
+  }
+  .footer-meunus .footer-wrap .blk-wrap p, .footer-meunus .footer-wrap .blk-wrap li a {
+    font-size: 14px;
+  }
+  .footer-meunus .footer-wrap .blk-wrap.ft2 p {
+    font-size: 14px;
+    line-height: 2em;
+  }
+  .footer-meunus #mc4wp-form-1 input[type=submit]{
+    padding: 5px 26px;
+    font-size: 16px;
+  }
+  .mobmenur-container i {
+    color: #e61e26 !important
+  }
+  .page.inner-bpage .banner, .single.inner-bpage .banner {
+    height: 486px;
+    margin-top: -50px;
+  }
+  .abt-cmpy p{
+    max-width: 70%;
+  }
+  .our-team p{
+    max-width: 68%;
+  }
+  .our-team .our-teams {
+    width: 100%;
+    max-width: 100%;
+  }
+  .clients-list h4 p{
+    padding: 10px 5px;
+  }
+  .clients-list .owl-carousel .owl-item .item {
+    margin: 0px 10px;
+  }
+  .mobmenu-content #mobmenuright > li > a:hover {
+    background-color: transparent !important;
+    color: #e61e26;
+  }
+  .mobmenu-content #mobmenuright li:hover {
+    background-color: transparent !important;
+  }
+  .inqform p {
+    max-width: 78%;
+  }
+  .contact-block div.wpcf7 {
+    width: 90%;
+  }
+  .contact-us .cleft{
+    padding: 5% 0 5% 7%;
+  }
+div#bulletS:after {
+    content: "";
+    width: 100%;
+    /* background: red; */
+    height: 100vh;
+    background-image: url(https://webprojects.hexeam.in/almana-rentals/assets/front/website/images/why-choose-us-img.png);
+    z-index: 111;
+    right: 0;
+    left: 2%;
+    opacity: .2;
+    /* top: 0%; */
+    bottom: -160%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+}
+
+@media screen and (max-width: 998px){
+    .sidemenu-div {
+    width: 25%;
+}
+.rental-wrapper.car-list-pg.yellowbar {
+    padding-left: 17px !important;
+    /* width: 100%; */
+}
+      .register a, .download-app a {
+   
+    font-size: 14px;
+   
+}
+.menu-header ul li a {
+  
+    font-size: 14px;
+   
+}
+        #contactForm .btn-snd {
+    top: 3px;
+    height: 135px;
+}
+
+   #contactForm .form-group:nth-child(3), #contactForm .form-group:nth-child(4), #contactForm .form-group:nth-child(5) {
+    margin-bottom: 35px;
+}
+  .section3 #price-fl select, .section3 #select-opt select, .section3 #search .form-control {
+    font-size: 15px;
+  }
+  .slider_overLay {
+    height: 111.5%;
+  }
+  .section6 .content-wrap {
+    margin-top: 3%;
+  }
+  .section5 h1 {
+    font-size: 38px;
+  }
+  .list-cars.rental .btn.buTTon{
+    margin-top: -36px;
+  }
+  .list-cars.rental {
+    margin-bottom: 4%;
+  }
+  .services-list .service-elements {
+    width: 100%;
+  }
+  /*.page.inner-bpage .banner-title h5{*/
+  /*  max-width: 60%;*/
+  /*}*/
+}
+@media screen and (max-width: 960px){
+  .slider_overLay {
+    height: 110.5%;
+  }
+   .sidemenu-div {
+    width: 25%;
+}
+.rental-wrapper.car-list-pg.yellowbar {
+    padding-left: 17px !important;
+    /* width: 100%; */
+}
+    .search-form form label {
+ 
+    font-size: 15px;
+   
+}
+.filter-bar .dropdown.Choose {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 20% !important;
+    padding: 10px 5px 0 !important;
+    margin: 0 !important;
+}
+.filter-bar .dropdown.Choose.sort {
+    float: right;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 10px;
+    float: right !important;
+    padding: 10px 5px 0 !important;
+    margin: 0 !important;
+    width:28% !important;
+}
+}
+
+@media only screen and (max-width: 991px){
+    .filter-bar .dropdown.Choose {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 25% !important;
+    padding: 10px 5px 0 !important;
+    margin: 0 !important;
+}
+.filter-bar .dropdown.Choose.sort {
+    float: right;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 10px;
+    float: right !important;
+    padding: 10px 5px 0 !important;
+    margin: 0 !important;
+    width: 35% !important;
+}
+.filter-bar .dropdown.Choose.sort {
+    float: right;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 10px;
+    float: right !important;
+    padding: 10px 5px 0 !important;
+    margin: 0 !important;
+}
+
+.car-list-pg .list-details .mrgn
+{
+   padding:0 !important; 
+}
+
+.car-list-pg.car-single-pg .list-details{
+   margin-left: 15px;margin-right: 15px; 
+}
+
+.login-sec.signup-sec{
+    padding:20px 0;
+}
+.login-sec.signup-sec #submit1{
+ /*   margin-left: 15px!important;margin-right: 15px!important;*/
+}
+
+
+}
+
+
+@media screen and (max-width: 800px){
+    .search-form form label {
+ 
+    font-size: 15px;
+   
+}
+     .sidemenu-div {
+    width: 25%;
+}
+.rental-wrapper.car-list-pg.yellowbar {
+    padding-left: 17px !important;
+    /* width: 100%; */
+}
+.fea-img {
+    width: 100%;
+}
+.po-entry {
+    width: 100%;
+}
+.po-post { display: flex; flex-direction: column; }
+.fea-img { order: 2; }
+.po-entry { order: 1; }
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .filter-bar .dropdown.Choose.sort {
+    float: right;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 10px;
+    float: right !important;
+    padding: 10px 5px 0 !important;
+    margin: 0 !important;
+    width: 28% !important;
+}
+        .search-form form label {
+ 
+    font-size: 15px;
+   
+}
+  .mob-menu-header-holder{
+    top: 2%;
+    right: 1%;
+  }
+  .home #contactForm .col-lg-5.col-md-6{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  #wrapper #contactForm {
+    padding: 40px 40px 55px 40px;
+    top: 25px;
+        margin-bottom: 9em;
+  }
+  .search-form button {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    max-width: 100% !important;
+    position: relative;
+    top: -50px;
+}
+  .home #contactForm .col-lg-2{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  #contactForm .btn-snd {
+    top: 13px;
+    height: 150px;
+  }
+  #contactForm .form-group:nth-child(5){
+    margin-bottom: 0;
+  }
+  .section3 .col-md-5, .section3 .col-md-2{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .section4 .col-md-7{
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  .section4 .col-md-5{
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  .section6 .content-wrap h4 {
+    font-size: 38px;
+  }
+  .section6 .content-wrap p{
+    font-size: 15px;    
+    line-height: 2em;
+  }
+  .section6 .content-wrap h5 {
+    font-size: 48px;
+  }
+  .section5 h1 {
+    font-size: 32px;
+  }
+.footer-meunus .footer-wrap .blk-wrap {
+    width: 100% !important;
+    margin-bottom: 4%;
+    /* text-align: center; */
+}
+  .footer-meunus h4 {
+    font-size: 18px;
+    padding-bottom: 2%;
+  }
+  .banner-title h1 {
+    font-size: 5rem;
+    line-height: 1.4em;
+  }
+  .banner-title h1 span {
+    font-size: 9rem;
+  }
+  .banner-title {
+    left: 11%;
+  }
+  .mobmenur-container{
+    right: 12px !important;
+    top: 31px !important;
+  }
+ .arabic-render  .mobmenur-container{
+      right: auto !important;
+    left: 0;
+  }
+  .page-template-offers .header-banner{
+    min-height: auto;
+  }
+  .our-team .our-teams img {
+    width: 100%;
+  }
+  .contact-us .cleft {
+    padding: 2% 0 2% 4%;
+  }
+  .contact-us .cleft h3{
+    font-size: 33px;
+  }
+  .resrvdiv {
+    min-height: 100vh;
+    padding-left: 0;
+}
+}
+@media screen and (max-width: 767px){
+    
+    .filter-bar .dropdown.Choose.sort {
+    float: right;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 10px;
+    float: right !important;
+    padding: 10px 5px 0 !important;
+    margin: 0 !important;
+    width:100% !important;
+}
+    .search-form button {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    max-width: 100% !important;
+    position: relative;
+    top: -50px;
+}
+    .circle {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-size: 16px;
+    background-color: #e61e26;
+    color: #f1f1f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: calc(57% - 549px);
+    left: calc(100% - 22px);
+    z-index: 3;
+    cursor: pointer;
+}
+    
+    .sidepanel {
+    position: relative;
+    width: 50%;
+    min-width: 100px;
+    margin-left: 0;
+    z-index: 2;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #f1f1f2;
+}
+    .rental-wrapper.car-list-pg.yellowbar {
+    padding-left: 0 !important;
+}
+  .cright iframe {
+    height: 350px;
+  }
+  .page.inner-bpage .banner-title h5{
+    /*max-width: 94%;*/
+  }
+  .resrvdiv {
+    min-height: 100vh;
+    padding-left: 0;
+}
+.filterstyle .sortarrow {
+    position: relative;
+    float: left;
+    margin-right: 0;
+}
+    
+  .dropdown.Choose.filterstyle  form {
+    display: flex;
+    flex-direction: revert;
+}
+.filter-bar .dropdown.Choose {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 35% !important;
+    padding: 10px 5px 0 !important;
+    margin: 0 !important;
+}
+    input#VerificationCode::placeholder {
+    font-size:14px;
+    padding-left:1.5em;
+}
+.select2-container {
+    position: absolute !important;
+    top: 5px;
+    left: 24px;
+    width: 30% !important;
+}
+.login-sec h3 {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 22px;
+}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+  .arabic-render .mbdiv {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    padding: 9em 0;
+}
+.section6 img {
+    width: 30%;
+}
+.arabic-render .section6 .content-wrap {
+    text-align: right;
+    margin-top: -21%;
+}
+}
+
+@media screen and (max-width: 575px){
+    .login-sec h3 {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 22px !important;
+}
+    .select2-container {
+    position: absolute !important;
+    top: 5px;
+    left: 24px;
+    width: 30% !important;
+}
+    
+    input#VerificationCode::placeholder {
+    font-size:14px;
+    padding-left:1.5em;
+}
+    .logoimg #logo img {
+    width: 50%;
+    margin-left: -2.5em;
+}
+
+    .dropdown.Choose.sort {
+    float: left !important;
+}
+    .filter-bar .dropdown.Choose {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 32% !important;
+    padding: 10px 5px 0 !important;
+    margin: 0 !important;
+}
+    
+  .dropdown.Choose.filterstyle  form {
+    display: flex;
+    flex-direction: revert;
+}
+    .filterstyle .sortarrow {
+    position: relative;
+    float: left;
+    margin-right: 0 !important;
+}
+
+.filter-bar .dropdown.Choose button {
+    font-size: 12px !important;
+}
+.filterstyle select {
+    font-size: 12px !important;
+}
+    .resrvdiv {
+    min-height: 100vh;
+    padding-left: 0;
+}
+    .search-form button {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    max-width: 100% !important;
+    position: relative;
+    top: -50px;
+}
+    
+    
+    .sidepanel {
+    position: relative;
+    width: 50%;
+    min-width: 100px;
+    margin-left: 0;
+    z-index: 2;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #f1f1f2;
+}
+    .rental-wrapper.car-list-pg.yellowbar {
+    padding-left: 0 !important;
+}
+      div#bulletS:after {
+    content: "";
+    width: 100%;
+    /* background: red; */
+    height: 100vh;
+    background-image: url(https://webprojects.hexeam.in/almana-rentals/assets/front/website/images/why-choose-us-img.png);
+    z-index: 111;
+    right: 0;
+    left: 40%;
+    opacity: .2;
+    /* top: 0%; */
+    bottom: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+  .section3 #price-fl select, .section3 #select-opt select, .section3 #search .form-control {
+    font-size: 16px;
+  }
+  .col-sm-12.col-md-5.right-content #bulletS li {
+    padding: 13px 9px;
+  }
+  #myVideo {
+    margin-top: 0;
+    height: 344px;
+    object-fit: cover;
+  }
+  body {
+    padding-top: 0px !important;
+  }
+  .slider_overLay {
+    top: 0;
+  }
+  .slider_overLay {
+    height: 100%;
+  }
+ #logo img {
+    width: 60%;
+    margin-left: -0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+  .banner-title {
+    left: 3%;
+    bottom: 22%;
+  }
+  .banner-title {
+    left: 3%;
+  }
+  .banner-title h1{
+    font-size: 4rem;
+  }
+  .banner-title h1 span {
+    font-size: 5.6rem;
+  }
+  .home #contactForm .col-lg-5.col-md-6{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .section3 .list-cars .blocks .caption h4 {
+    font-size: 24px;
+    margin-bottom: 0;
+    word-wrap: break-word;
+  }
+  
+ .arabic-render   .section3 .list-cars .blocks .caption h4 {
+   
+    text-align: right;
+}
+.arabic-render .mbdiv {
+    display: flex;
+    flex-direction: column-reverse;
+}
+  .section3 .list-cars .blocks .caption .left-wrap p {
+    font-size: 15px;
+    margin-top: 0;
+  }
+  .section3 .list-cars .blocks .caption .middle-wrap h5 {
+    font-size: 16px;
+    display: inline-block;
+  }
+  .section3 .list-cars .blocks .caption .middle-wrap p {
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 3%;
+  }
+  .section3 .list-cars .blocks .caption .right-wrap {
+    right: 30px;
+    position: absolute;
+    bottom: 12px;
+    top: auto;
+  }
+.arabic-render     .section3 .list-cars .blocks .caption .right-wrap {
+      right: auto;
+    position: absolute;
+    bottom: 12px;
+    top: auto;
+    left: 0;
+    }
+    .arabic-render .footer-meunus .footer-wrap {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+  .section4 h2 {
+    font-size: 61px;
+  }
+  .section4 .col-md-7{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .col-sm-12.col-md-5.right-content{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .col-sm-12.col-md-5.right-content {
+    padding-left: 8%;
+  }
+  .section6 .content-wrap h5 {
+    font-size: 41px;
+  }
+  .section6 .content-wrap h4 {
+    font-size: 32px;
+  }
+  .section5 h1 {
+    font-size: 16px;
+  }
+  .page-template-carrental .section3, .section3 {
+    padding: 10% 4% 10% 4%;
+  }
+  .section3 #search .input-group{
+    padding: 12px 20px;
+  }
+  .section3 #select-opt select, .section3 #price-fl select{
+    padding: 16px 20px;
+  }
+  #contactForm img {
+    width: 6%;
+  }
+  .page.inner-bpage .banner, .single.inner-bpage .banner {
+    /*height: 470px;*/
+    height: auto;
+    margin-top: 0;
+    background-position: 12%;
+  }
+  .banner-title{
+    bottom: 26%;
+    left: 5%;
+  }
+  .page.inner-bpage .banner-title h1{
+    font-size: 56px;
+  }
+  .page.inner-bpage .banner-title h5{
+    font-size: 14px;
+    padding: 3% 0;
+  }
+  .abt-cmpy, .our-clients{
+    padding: 11% 0;
+  }
+  .abt-cmpy h2, .our-clients h2, .offers-list h2, .careers-list h2, .inqform h2{
+    font-size: 34px;
+  }
+  .abt-cmpy p {
+    max-width: 100%;
+    font-size: 16px;
+  }
+  .our-team p {
+    max-width: 100%;
+    font-size: 13px;
+  }
+  .clients-list h4 p {
+    font-size: 16px;
+  }
+  .clients-list .owl-carousel .owl-item img{
+    width: 53%;
+  }
+  .our-team .our-teams h4{
+    margin-bottom: 0;
+  }
+  .clients-list .owl-theme .owl-dots .owl-dot span {
+    background: #666666;
+    height: 10px;
+    width: 10px;
+  }
+  .banner-title h1{
+    margin-bottom: 10px;
+  }
+  #footer{
+    font-size: 14px;
+  }
+  .footer-meunus h4 {
+    font-size: 17px;
+  }
+  .clients-list .owl-carousel .owl-nav button.owl-next, .clients-list .owl-carousel .owl-nav button.owl-prev{
+    top: 15%;
+  }
+  .clients-list .owl-carousel .owl-nav button span {
+    font-size: 7rem;
+  }
+  .list-cars.rental {
+    margin-bottom: 20%; 
+  }
+  .section3 .rental h3{
+    margin-bottom: 8%;
+  }
+  .list-cars.rental .btn.buTTon{
+    margin-top: -10px;
+    float: none;
+  }
+  .section3 .list-cars.rental .blocks .caption .left-wrap p {
+    font-size: 13px;
+  }
+  .section3 .list-cars.rental .blocks .caption .middle-wrap{
+    /*padding-left: 12px;*/
+    float: left;
+  }
+  .section3 .list-cars.rental .blocks .caption .middle-wrap p {
+    font-size: 13px;
+  }
+  .offers-list, .careers-list, .inqform{
+    padding: 11% 0;
+  }
+  .offer-list-items .col-lg-4 {
+    padding: 15px 15px;
+  }
+  .careers-list .jobs {
+    width: 96%;
+    margin: 6% 0px;
+    margin-bottom: 0;
+  }
+  h5.job-type{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 0;
+    float: left;
+    right: auto;
+  }
+  ul.listing-icons li{
+    display: block;
+    text-align: left;
+  }
+  .toggle-form div.wpcf7{
+    width: 92%;
+    padding: 22px 22px;
+  }
+  .toggle-form input[type=text], .toggle-form input[type=tel], .toggle-form input[type=email], .toggle-form textarea {
+    padding: 10px 18px;
+  }
+  .cright iframe{
+    height: 350px;
+  }
+  .inqform p {
+    max-width: 100%;
+    font-size: 16px;
+    padding: 0px 8px;
+  }
+  .contact-block input[type=submit]{
+    margin-top: 10px;
+  }
+  .section3 h3 {
+    font-size: 37px;
+  }
+  .services-list{
+    padding: 4% 0;
+  }
+  .services-list .service-elements {
+    width: 100%;
+    padding: 8% 0;
+  }
+  .services-list h2{
+    font-size: 25px;
+  }
+  .services-list .content-element > p{
+    font-size: 15px;
+  }
+  .services-list .content-element h4{
+    font-size: 15px;
+  }
+  .contact-us .cleft {
+    padding: 5% 0 5% 7%;
+  }
+  .section3 .list-cars .blocks .caption .middle-wrap{
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+  }
+  .section3 .list-cars .blocks {
+    margin-bottom: 13%;
+    }
+    #clientSlider .owl-dots{
+        display: none;
+    }
+    #clientSlider .owl-theme .owl-nav{
+        margin-top: 0;
+    }
+    .our-clients .clients-list {
+        padding-top: 10%;
+        margin-bottom: -48px;
+    }
+    /*.banner-title{*/
+    /*    width: 100%;*/
+    /*    float: left;*/
+    /*}*/
+    
+    .divmain.feedback .circle {
+    top: calc(100% - 398px);
+    left: calc(100% - 0px);
+    }
+    
+    .circle i {
+        display: none;
+    }
+    
+    .circle i.hide {
+        display: block !important;
+    }
+    
+    .header-sidemenu .menu-header ul li a {
+        display: block !important;
+        padding: 10px 5px 10px 12px;
+        font-size: 11px;
+    }
+    .sidepanel {
+    margin-left: -100px;
+    }
+
+} 
+
+@media screen and (max-width: 375px){
+    .login-sec h3 {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 22px;
+}
+    .filter-bar .dropdown.Choose {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 35% !important;
+    padding: 10px 5px 0 !important;
+    margin: 0 !important;
+}
+        
+  .dropdown.Choose.filterstyle  form {
+    display: flex;
+    flex-direction: revert;
+}
+    .filterstyle .sortarrow {
+    position: relative;
+    float: left;
+    margin-right: 0;
+}
+    .sidepanel {
+    position: relative;
+    width: 50%;
+    min-width: 100px;
+    margin-left: -100px;
+    z-index: 2;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #f1f1f2;
+}
+.divmain.feedback .circle {
+    top: calc(100% - 398px);
+    left: calc(100% - 0px);
+}
+
+.circle i {
+    display: none;
+}
+
+.circle i.hide {
+    display: block !important;
+}
+
+.header-sidemenu .menu-header ul li a {
+    display: block !important;
+    padding: 10px 5px 10px 12px;
+    font-size: 11px;
+}
+
+.rental-wrapper.car-list-pg.yellowbar {
+    padding-left: 0 !important;
+}
+  .banner-title h1 span {
+    font-size: 5rem;
+  }
+  .section3 h3 {
+    /* font-size: 47px; */
+    margin-bottom: 5%;
+  }
+  .section4 h2 {
+    font-size: 55px;
+  }
+  .col-sm-12.col-md-5.right-content #bulletS li{
+    font-size: 15px;
+    line-height: 2em;
+  }
+  .section6 .content-wrap h5 {
+    font-size: 36px;
+  }
+  .section6 .content-wrap h4 {
+    font-size: 27px;
+  }
+  .section5 h1 {
+    font-size: 14px;
+  }
+  #footer {
+    font-size: 12px;
+  }
+  .page.inner-bpage .banner-title h5 {
+    font-size: 13px;
+  }
+  .abt-cmpy h2, .our-clients h2, .offers-list h2, .careers-list h2, .inqform h2 {
+    font-size: 30px;
+  }
+  .page-template-about .our-team h3{
+    font-size: 38px;
+  }
+  .jobs-listing .listing-title{
+    padding-left: 16px;
+  }
+  .careers-list h2{
+    letter-spacing: 2px;
+  }
+  .section3 .list-cars .thumbnail{
+    margin-bottom: 5px;
+  }
+  .section3 .list-cars .blocks .caption .left-wrap{
+      width: 65%;
+  }
+}
+@media screen and (max-width: 360px){
+  .banner-title h1 span {
+    font-size: 4rem;
+  }
+  .banner-title h1 {
+    font-size: 3rem;
+  }
+  #footer {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 320px){
+  .banner-title h1 {
+    font-size: 3rem;
+  }
+  .banner-title h1 span {
+    font-size: 4rem;
+  }
+  #contactForm img{
+    width: 7%;
+    padding-top: 16px;
+  }
+  .banner-title{
+    left: 5%;
+    bottom: 26%;
+  }
+  #wrapper #contactForm {
+    padding: 33px 30px 46px 30px;
+  }
+  .section3 .list-cars .blocks .caption h4 {
+    font-size: 21px;
+  }
+  .section3 .list-cars .blocks .caption .left-wrap p {
+    font-size: 13px;
+  }
+  .section3 .list-cars .blocks .caption .middle-wrap p {
+    font-size: 13px;
+  }
+  .section3 .list-cars .blocks .caption .middle-wrap h5 {
+    font-size: 14px;
+  }
+  .section3 .list-cars .blocks .caption.active .right-wrap p{
+    font-size: 11px;
+  }
+  .section3 .list-cars .blocks .caption .right-wrap p span{
+    font-size: 14px;
+  }
+  .section3 h3 {
+    font-size: 42px;
+  }
+  .section4 h2 {
+    font-size: 47px;
+  }
+  .section6 .content-wrap h4 {
+    font-size: 24px;
+  }
+  .section6 .content-wrap h5 {
+    font-size: 32px;
+  }
+  .section5 h1 {
+    font-size: 12px;
+  }
+  .footer-meunus h4 {
+    font-size: 16px;
+  }
+  #footer{
+    font-size: 13px;
+  }
+  .section3 .list-cars .blocks .caption h4 {
+    font-size: 18px;
+  }
+  .section3 .list-cars .blocks .caption .left-wrap p {
+    font-size: 11px;
+  }
+  .section3 .list-cars .blocks .caption .middle-wrap h5 {
+    font-size: 12px;
+  }
+  .section3 .list-cars .blocks .caption .right-wrap p {
+    font-size: 10px;
+  }
+  .section3 .list-cars .blocks .caption .right-wrap p span {
+    font-size: 13px;
+  }
+  .page.inner-bpage .banner, .single.inner-bpage .banner {
+    height: 397px;
+  }
+  .banner-title{
+    bottom: 15%;
+  }
+  .page.inner-bpage .banner-title h1 {
+    font-size: 52px;
+  }
+  .page.inner-bpage .banner-title h5 {
+    font-size: 11px;
+  }
+  .abt-cmpy h2, .our-clients h2, .offers-list h2, .careers-list h2, .inqform h2{
+    font-size: 26px;
+  }
+  .our-team h5 {
+    font-size: 16px;
+  }
+  .page-template-about .our-team h3 {
+    font-size: 33px;
+  }
+  .our-team p{
+    font-size: 11px;
+  }
+  .our-team .our-teams h4{
+    font-size: 23px;
+  }
+  .our-team .our-teams h6 {
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+.circle {
+  top: 25px;
+  cursor: pointer;
+}
+.divmain.feedback .circle, .divmain.changepsrd .circle {
+  top: 25px;
+}
+#logo img {
+    max-height: 50px;
+    object-fit: contain;
+}
+#contactForm .input-containerd {
+    margin-bottom: 0;
+}
+#contactForm .form-group:nth-child(3), #contactForm .form-group:nth-child(4), #contactForm .form-group:nth-child(5) {
+    margin-bottom: 20px;
+}
+.sort_mob_style {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sort_mob_style ul.dropdown-menu a {
+    font-size: 10px !important;
+    padding: 0 5px !important;
+}
+.filter-bar .sort_mob_style .dropdown.Choose.no-wid{
+    width: 25% !important;
+}
+.sort_mob_style .filterstyle .sortarrow label {
+    top: 55%;
+    left: 75%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    right: unset;
+}
+.pos_drp_style ul.dropdown-menu {
+    right: unset;
+}
+span.select2.select2-container.select2-container--default {
+    position: relative !important;
+    left: 0;
+}
+.login-wrapper {
+    padding: 70px 20px 70px !important;
+}
+.mobilecode .select2-container {
+    top: -32px !important;
+    margin: 0;
+    width: 80px !important;
+}
+.form-group.col-md-6.mobilecode {
+    margin-bottom: 0 !important;
+}
+.histry-side {
+    padding-left: 0;
+    margin-bottom: 36px;
+}
+.rental-wrapper.car-list-pg.yellowbar.notfictn {
+    width: 76%;
+}
+.rental-wrapper.car-list-pg.yellowbar.notfictn {
+    width: 100%;
+    
+}
+.rental-wrapper.car-list-pg.yellowbar.notfictn, .rental-wrapper.car-list-pg.yellowbar.traffic {
+    width: 100%;
+    min-width: 95%;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+}
+label {
+  font-weight: 500 !important;
+}
+
+@media only screen and (max-width: 1400px){
+    .logoimg #access {
+    padding: 2% 0 0 5.1%;
+    padding: 2% 5px 0px 1%;
+    }
+#access {
+    padding: 2% 0 0 1%;
+}
+.download-app a {
+    padding: 5px 0px 10px 18px;
+}
+.register a, .download-app a {
+    font-size:13px;
+}
+}
+
+@media only screen and (max-width: 1280px){
+#access {
+    padding: 2% 0 0 1%;
+}
+.download-app a {
+    padding: 5px 0px 10px 18px;
+}
+.register a, .download-app a {
+    font-size:13px;
+}
+}

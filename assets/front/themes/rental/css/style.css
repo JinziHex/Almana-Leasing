@@ -1,0 +1,3038 @@
+/*  
+Theme Name: Rental Solutions
+Theme URI: http://www.web.co.in
+Description: A WordPress theme frame work
+Version: 2.0
+Author: Hexeam Software Solutions
+Author URI: https://www.hexeam.com
+*/
+
+/*
+Improved browser CSS feature
+-------------------------------------
+Example: .ie8 .sidebar li{width:85px}
+
+•ie - Internet Explorer (All versions)
+•ie8 - Internet Explorer 8.x
+•ie7 - Internet Explorer 7.x
+•ie6 - Internet Explorer 6.x
+•gecko - Mozilla, Firefox (all versions), Camino
+•ff3 - Firefox 3
+•ff3_5 - Firefox 3.5 new
+•opera - Opera (All versions)
+•opera8 - Opera 8.x
+•opera9 - Opera 9.x
+•opera10 - Opera 10.x
+•webkit or safari - Safari, NetNewsWire, OmniWeb, Shiira, Google Chrome
+•safari3 - Safari 3.x
+•chrome - Google Chrome
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body{
+	margin :0 auto;
+	font-family: 'Oswald', sans-serif !important;
+	}
+body, th, td, input, textarea{
+	color:#000000;
+	font-family: 'Oswald', sans-serif !important;
+	font-size:12px;
+	}
+form{
+	}
+fieldset{
+	}
+input, textarea{
+	font-weight:bold;
+	}
+input.text{
+	background:#FFFFFF;
+	border:none;
+	padding:1px;
+	}
+input.button{
+	background:#000000;
+	border:1px solid #000000;
+	color:#ffffff;
+	}
+h1, h2, h3{
+	color:#000000;
+	}
+h1{
+	font-size:25px;
+	
+	
+	}
+h2{
+	
+	font-size:22px;
+	
+	
+	}
+h3{
+	font-size:16px;
+	}
+h4{
+	font-size:14px;
+	}
+h5{
+	font-size:12px;
+	}
+h6{
+	font-size:10px;
+	}
+p, ul, ol{
+	font-size:13px;
+	line-height:20px;
+	
+	}
+ul, ol{
+	
+	}
+blockquote{
+	margin-left:36px;
+	margin-right:36px;
+	}
+a{
+	color:#000000;
+	text-decoration:none;
+	}
+a:hover{
+	border:none;
+	}
+h1 a, h2 a, h3 a{
+	border:none;
+	color:#333333;
+	text-decoration:none;
+	}
+h1 a:hover, h2 a:hover, h3 a:hover{
+	background:none;
+	color:#371015;
+	}
+hr{
+	display:none;
+	}
+body a:hover {
+	color: #e61e26;
+	text-decoration: none;
+}
+
+/* Anju styles start here */
+h1, h2, h3, h4, h5, h6, p, a{
+	font-family: 'Oswald', sans-serif !important; 
+}
+
+
+#logo img{
+	    width: 85%;
+    margin-left: -3.5em;
+}
+.header-banner {
+    position: absolute;
+    max-width: 100%;
+    z-index: 111;
+    /*min-height: 100%;*/
+    /*top: 3%;*/
+    background: #ffffff4d;
+}
+.banner{
+	height: auto;
+	background-repeat: no-repeat;
+	width: 100%;
+	float: left;
+	background-size: cover;
+	position: relative;
+}
+#header{
+	width: 100%;
+    float: left;
+   /* background: transparent;
+   background: #00000024;*/
+}
+.arabic-render #access {
+    padding: 2% 1% 0 5%;
+}
+
+div#logo {
+    display: inline-block;
+    float: left;
+}
+#myVideo{
+	min-width: 100%;
+	min-height: 100%;
+	margin-top: 0px;
+	width: 100%;
+	/* position: absolute; */
+}
+.form-group{
+	text-align: left;
+}
+#footer{
+	background-color: #555555;
+    width: 100%;
+    float: left;
+    color: #e3e3e3;
+    font-size: 15px;
+   padding: 2.5% 0 2% 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    z-index:10;
+   
+}
+#access{
+	float: left;
+    padding: 2% 0 0 8%;
+}
+.menu-header ul{
+	list-style: none;
+}
+.menu-header ul li{
+	text-decoration: none;
+	float: left;
+}
+.menu-header ul li a {
+    color: #7f8084;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 10px;
+    font-weight: 600;
+
+}
+.slider_overLay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: #020626;
+    background: rgba(0,0,0,0.5);
+    display: block;
+    z-index: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+.current-menu-item span{
+	border: 1px solid #ffc72c;
+    display: block;
+    width: 26px;
+    margin: 5px 10px;
+}
+.menu-header ul li.current-menu-item a{
+	color:  #e61e26;
+}
+.menu-header ul li a:hover{
+	text-decoration: none;
+	color: #e61e26;
+}
+.menu-right{
+	float: left;
+	padding-top: 2%;
+}
+.menu-right .price-trasnsilate.dropdown{
+	float: right;
+	padding-top: 8px;
+}
+.register {
+    float: left;
+    padding: 2% 0 0 0%;
+}
+.register a, .download-app a{
+	color: #7f8084;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+    font-weight:600;
+    /* padding: 10px 60px; */
+    padding: 2px 60px;
+}
+.download-app{
+	float: left;
+    padding: 2% 0 0 0%;
+}
+.plystr{
+	padding-left: 10px;
+}
+.dropdown select, .dropdown options{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    background: rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 5px 15px;
+    padding-right: 36px;
+    border: 1px solid;
+    border-radius: 7px;
+}
+.dropdown  select:not(:-internal-list-box) {
+    background-color: red;
+}
+.dropdown  select:focus{
+	outline: none;
+}
+.dropdown select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Some browsers will not display the caret when using calc, so we put the fallback first */ 
+  background: url("http://rentsolutions.almanasoft.online/wp-content/uploads/2019/08/down-arrow.png") no-repeat 98.5% !important; /* !important used for overriding all other customisations */
+  background: url("http://rentsolutions.almanasoft.online/wp-content/uploads/2019/08/down-arrow.png") no-repeat calc(100% - 10px) !important; /* Better placement regardless of input width */
+}
+.dropdown select option {
+    background: rgba(255, 255, 255, 0.98);
+    color: #000;
+    font-size: 14px;
+}
+.dropdown select option:hover{
+	background:  yellow;
+}
+/*For IE*/
+.dropdown select::-ms-expand { display: none; }
+ul.dropdown-menu{
+	background-color: rgba(255, 255, 255, 0);
+}
+.banner-title{
+	position: absolute;
+	bottom: 35%;
+    left: 20%;
+    overflow: hidden;
+}
+.banner-title h1{
+	font-size: 10rem;
+    font-weight: 900;
+    color: #fff;
+}
+.banner-title h1 span{
+	display: block;
+    line-height: 1.4em;
+    font-size: 16rem;
+}
+#wrapper{
+	width: 100%;
+	float: left;
+	text-align: center;
+   /*  overflow: hidden; */
+}
+#wrapper #contactForm{
+	width: 100%;
+    background: #fff;
+    display: inline-block;
+    position: relative;
+    -moz-box-shadow: 0px 5px 12px 1px #bdb9b9;
+    -webkit-box-shadow: 0px 5px 12px 1px #bdb9b9;
+    box-shadow: 0px 5px 12px 1px #bdb9b9;
+    padding: 50px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    top: -80px;
+    overflow: hidden;
+}
+#contactForm .input-container {
+	display: -ms-flexbox; /* IE10 */
+	display: flex;
+	width: 100%;
+	margin-bottom: 15px;
+	border: 1px solid #afafaf;
+	padding: 12px 20px;
+	border-radius: 9px;
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif !important;
+}
+
+#contactForm img {
+    width: 3%;
+    height: 100%;
+    padding-top: 11px;
+}
+
+#contactForm .input-field {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  font-family: 'Quicksand', sans-serif !important;
+  outline: none;
+
+  font-family: 'Roboto', sans-serif !important;
+    font-size: 16px;
+}
+
+#contactForm .input-field:focus {
+  border: 0;
+}
+#contactForm .form-group:nth-child(3), #contactForm .form-group:nth-child(4), #contactForm .form-group:nth-child(5){
+	margin-bottom: -6px;
+}
+#contactForm .btn-snd{
+	background: url("/assets/front/website/images/sent.png") center center no-repeat;
+    text-indent: -9999px;
+    box-shadow: none;
+    font-size: 0px;
+    max-width: 100%;
+    width: 100%;
+    height: 207px;
+    border-radius: 9px;
+    position: relative;
+    top: -96px;
+}
+/* Set a style for the submit button */
+#contactForm .btn {
+  background-color: #e61e26;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+#contactForm .btn:hover {
+  opacity: 1;
+  background-color: #7f8084;
+}
+#contactForm label {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #4b4a4b;
+    line-height: 2.2em;
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+.section2{
+	width: 100%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 3%;
+}
+.section2 .thumbnail{
+	border: 0;
+}
+.section2 .thumbnail h2{
+	text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 10px 0;
+    color: #383838;
+    line-height: 1.4em;
+}
+.section2 .thumbnail p{
+	color: #525050;
+    line-height: 2em;
+    font-weight: 400;
+    margin: 30px 0;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif !important;
+}
+.section2 .thumbnail .btn-primary{
+	color: #fff;
+    background-color: #7f8084;
+    border-color: #7f8084;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+img.serv-img {
+    filter: grayscale(100%);
+}
+.section2 .thumbnail .btn-primary:hover{
+
+    border-color: #7f8084;
+    background-color: #7f8084;
+}
+.section2 .thumbnail a>img{
+	padding-top: 20px;
+    width: 50%;
+}
+.section3{
+	width: 100%;
+	float: left;
+    overflow: hidden;
+	background: #ececec;
+	padding: 5% 10% 6% 10%;
+}
+.section3 h3{
+	font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 3%;
+}
+.section3 #search .form-control{
+	border: 0;
+    background: transparent;
+    box-shadow: none;
+    padding: 10px;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif !important;
+    outline: none;
+}
+.section3 #search .input-group{
+	display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #afafaf;
+    padding: 16px 20px;
+    border-radius: 9px;
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif !important;
+}
+.section3 #select-opt select{
+	display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #afafaf;
+    padding: 21px 20px;
+    background: none;
+    border-radius: 9px;
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif !important;
+}
+.section3 #select-opt select:focus,  .section3 #price-fl select:focus{
+    outline: -webkit-focus-ring-color auto 0px;
+}
+.section3 #search button.bttn.btn-defaultt {
+    background: none;
+    border: 0;
+}
+.section3 #search .btn:hover, .section3 #search .btn-default:active, .section3 #search .btn-default:focus{
+	border:  0;
+	background:  none;
+	background-color: transparent;
+	box-shadow: none;
+}
+.section3 #select-opt select{
+    background: url(http://rentsolutions.almanasoft.online/wp-content/uploads/2019/08/arrow-btm.png) no-repeat right;
+    -webkit-appearance: none;
+    background-position: center right 20px;
+}
+.section3 #price-fl select{
+	display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #afafaf;
+    padding: 21px 20px;
+    background: none;
+    border-radius: 9px;
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif !important;
+}
+.section3 #price-fl select{
+	background: url(http://rentsolutions.almanasoft.online/wp-content/uploads/2019/08/arrow-btm.png) no-repeat right;
+    -webkit-appearance: none;
+    background-position: center right 20px;
+}
+.section3 .list-cars {
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+}
+.section3 .list-cars .thumbnail{
+	padding:  10%;
+	border: 0;
+	background-color: #f3f3f3;
+
+    background: #ececec;
+}
+.section3 .list-cars .blocks{
+	margin-bottom: 3%;
+}
+.section3 .list-cars .blocks .caption{
+	width: 100%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.section3 .list-cars .blocks .caption .flsr{
+    width:70%;
+}
+.section3 .list-cars .blocks .caption h4 {
+    font-size: 18px !important;
+}
+.section3 .list-cars .blocks .caption .left-wrap{
+	float: left;
+	text-align: left;
+}
+.section3 .list-cars .blocks .caption .left-wrap p{
+	font-size: 17px;
+    font-family: 'Quicksand', sans-serif !important;
+   	color: #989595;
+    margin-top: 11px;
+}
+.section3 .list-cars .blocks .caption .left-wrap p span {
+    color: #fdb91d;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+
+
+.section3 .list-cars .blocks .caption .left-wrap p span img{
+	margin: -4px 7px 0 12px;
+}
+.section3 .list-cars .blocks .caption .middle-wrap{
+	/* text-align: center */
+	display: inline-block;
+
+    width: 100%;
+    display: block;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.section3 .list-cars .blocks .caption .right-wrap{
+	float: right;
+    display: inline-block;
+    position: relative;
+    top: -50px;
+    right: 22px;
+    color: #fff;
+    padding: 23px 6px 10px 6px;
+    background: #e61e26;
+    cursor: pointer;
+
+    top: -35px;
+    margin-left: auto;
+}
+.section3 .list-cars .blocks .caption h4{
+	font-size: 28px;
+    font-weight: 900;
+    text-align: left;
+    color: #555555;
+}
+.section3 .list-cars .blocks .caption .middle-wrap h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #555555;
+    line-height: 2em;
+    padding-right: 25px;
+
+    margin-bottom: 0;
+}
+.section3 .list-cars .blocks .caption .middle-wrap p{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif !important;
+
+    margin-bottom: 0;
+}
+.section3 .list-cars .blocks .caption .middle-wrap p img{
+	padding-bottom: 2px;
+}
+.section3 .list-cars .blocks .caption .right-wrap p{
+	font-size: 12px;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 1.5em;
+    margin-bottom: 0;
+    font-family: 'Quicksand bold', sans-serif !important;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 100%;
+    font-weight: 700 !important;
+}
+.section3 .list-cars .blocks .caption .right-wrap p span{
+	display: block;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.section3 .list-cars .blocks .caption .right-wrap:hover p{
+	color: #fff;
+}
+.section3 .list-cars .blocks .caption .right-wrap:hover{
+	background: #7f8084;
+}
+.section3 .list-cars .blocks .caption .right-wrap:hover .diplay-block{
+	display: none !important;
+}
+.section3 .list-cars .blocks .caption .right-wrap:hover .diplay-none{
+	display: block !important;
+}
+.btn.buTTon{
+	color: #fff;
+    padding: 19px 0px;
+    border-radius: 6px;
+    background-color: #fec238;
+    border-color: #fec238;
+}
+.btn.buTTon a{
+	color: #555555;
+    padding: 20px 42px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.btn-primary:hover{
+	background-color: #0047bb;
+    border-color: #0047bb;
+}
+.btn-primary:hover a{
+	color:  #fff;
+}
+.section4{
+	width:  100%;
+	padding: 7% 0 3% 0;
+    overflow: hidden;
+	float: left;
+}
+div#bulletS:after {
+    content: "";
+    width: 100%;
+    /* background: red; */
+    height: 100vh;
+    background-image: url(https://webprojects.hexeam.in/almana-rentals/assets/front/website/images/why-choose-us-img.png);
+    z-index: 111;
+    right: 0;
+    left: 40%;
+    /* top: 0%; */
+    bottom: -51%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.section4 h2{
+	font-size: 92px;
+	font-weight: 900;
+	margin-bottom: 1%;
+	color: #383838;
+}
+.section4 .left-content p{
+	color: #525050;
+    line-height: 2.2em;
+    font-weight: 400;
+    text-align: justify;
+    margin: 22px 0;
+    font-size: 17px;
+    font-family: 'Quicksand Light', sans-serif !important;
+}
+.col-sm-12.col-md-5.right-content {
+    text-align: left;
+    padding-left: 4%;
+}
+.col-sm-12.col-md-5.right-content ul#bulletS{
+	margin: 18px 0;
+	list-style-image: url('http://rentsolutions.almanasoft.online/wp-content/uploads/2019/08/bullet.png');
+}
+.col-sm-12.col-md-5.right-content #bulletS li{
+	font-size: 18px;
+    padding: 7px 10px;
+    line-height: 2em;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif !important;
+    color: #383838;
+}
+.footer-meunus{
+	width: 100%;
+	float: left;
+	background: #0047bb;
+	color: #fff;
+	padding: 4% 0;
+}
+.footer-meunus h4{
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-bottom: 6%;
+}
+.footer-meunus .footer-wrap{
+	width: 100%;
+}
+.footer-meunus .footer-wrap .ft1{
+	width: 25%;
+	float: left;
+}
+.footer-meunus .footer-wrap .ft2{
+	width: 25%;
+	float: left;
+}
+.footer-meunus .footer-wrap .ft3.blk-wrap{
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 18px 0;
+}
+.footer-meunus .footer-wrap .ft3 h4{
+    padding-bottom: 0%;
+}
+.footer-meunus .footer-wrap .ft3 ul{
+    padding-left: 14px;
+}
+.footer-meunus .footer-wrap .ft4{
+	width: 25%;
+	float: left;
+}
+.footer-meunus .footer-wrap .ft5{
+	width: 25%;
+	float: left;
+}
+.footer-meunus .footer-wrap .blk-wrap{
+	padding: 0px 13px;
+}
+.footer-meunus .footer-wrap .blk-wrap li{
+	list-style: none;
+}
+.footer-meunus .footer-wrap .blk-wrap p{
+	font-size: 15px;
+	line-height: 2em;
+    font-family: 'Quicksand', sans-serif !important;
+}
+.footer-meunus .footer-wrap .blk-wrap:nth-child(5){
+	/* margin-right: 0; */
+}
+.footer-meunus .footer-wrap .blk-wrap li a {
+    color: #fff;
+    font-size: 15px;
+    line-height: 2em;
+    font-family: 'Quicksand', sans-serif !important;
+}
+.footer-meunus #mc4wp-form-1 input[type=email]{
+	background: no-repeat;
+    border: 1px solid #fff;
+    width: 86%;
+    padding: 6px;
+}
+.footer-meunus .footer-wrap .blk-wrap li a:hover{
+    color: #ffc72c;
+}
+.footer-meunus #mc4wp-form-1 input[type=submit]{
+	background: #fff;
+    box-shadow: none;
+    color: #0047bb;
+    text-transform: uppercase;
+    font-size: 17px;
+    border: 0;
+    font-weight: 700;
+    padding: 5px 27px;
+    margin-top: 10px;
+}
+.section5{
+	width: 100%;
+    float: left;
+    background: #fec238;
+    overflow: hidden;
+    text-align: center;
+    padding: 3.5% 0;
+} 
+.section5 h1{
+	font-size: 55px;
+    color: #c0872c;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+.section6{
+	width: 100%;
+	color: #fff;
+    overflow: hidden;
+	float: left;
+	background-image: url('http://rentsolutions.almanasoft.online/wp-content/uploads/2019/08/section-banner1.jpg');
+	padding-top: 2.5%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.section6 .content-wrap{
+	text-align: left;
+	margin-top: 8%;
+}
+.section6 .content-wrap h4{
+	font-size: 60px;
+    font-weight: 100;
+}
+.section6 .content-wrap h5{
+	font-size: 60px;
+    font-weight: 900;
+    margin: 1% 0;
+}
+.section6 .content-wrap p{
+	line-height: 2.2em;
+    font-weight: 400;
+    text-align: justify;
+    max-width: 72%;
+    margin: 6% 0;
+    font-size: 17px;
+    font-family: 'Quicksand Light', sans-serif !important;
+}
+.mobmenu-right-panel{
+	width: 100% !important;
+	background-color: #000000 !important;
+	text-align: center;
+}
+.footer-menu li:nth-child(1){
+	display: none;
+}
+ul#mobmenuright li.current-menu-item a{
+    color: #ffc72c;
+}
+.footer-menu #menu-primary-1 .current-menu-item span{
+    display: none;
+}
+
+
+/* About Us Page styles starts here */
+.page.inner-bpage .banner, .single.inner-bpage .banner{
+	height: 655px;
+}
+.page.inner-bpage .banner-title h1{
+	font-family: 'Poppins', sans-serif !important;
+	font-weight: 600;
+    font-size: 60px;
+    line-height: 1.2em;
+}
+.page.inner-bpage .banner-title h5{
+	font-family: 'Poppins', sans-serif !important;
+	color: #fff;
+	line-height: 1.8em;
+	font-size: 18px;
+	padding: 5% 0;
+	/*max-width: 55%;*/
+}
+.abt-cmpy{
+	width: 100%;
+	float: left;
+	background: #eee9e5;
+	text-align: center;
+	padding: 4% 0;
+}
+.abt-cmpy h2, .our-clients h2, .offers-list h2, .careers-list h2, .inqform h2{
+	font-family: 'Poppins', sans-serif !important;
+	font-weight: 600;
+    font-size: 40px;
+    line-height: 1.2em;
+    text-align: center;
+    display: block;
+}
+.spn-brdr{
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin: 1% 0 2% 0;
+}
+.abt-cmpy span.border-btm, .our-clients span.border-btm, .offers-list span.border-btm, .careers-list span.border-btm, .inqform span.border-btm{
+	display: inline-block;
+    text-align: center;
+    float: none;
+    width: 50px;
+    background-color: #e61e26;
+    height: 3px;
+}
+.abt-cmpy p{
+	font-size: 18px;
+    line-height: 1.8em;
+    max-width: 50%;
+    padding: 10px 0;
+    color: #656c65;
+    display: inline-block;
+    font-family: 'Quicksand Light', sans-serif !important;
+}
+.our-team{
+	width: 100%;
+	float: left;
+	text-align: center;
+	background: #171d29;
+	padding: 5% 0 1% 0;
+	font-family: 'Quicksand Light', sans-serif !important;
+	color: #fff;
+}
+.our-team h5{
+	font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 1.6em;
+    font-family: 'Poppins', sans-serif !important;
+}
+.page-template-about .our-team h3{
+	font-family: 'Glegoo', serif !important;
+	text-transform: uppercase;
+	font-size: 40px;
+    line-height: 1.4em;
+}
+.our-team p{
+    font-size: 16px;
+    line-height: 2em;
+    display: inline-block;
+    max-width: 35%;
+    margin: 10px 0 30px 0;
+    color: #fff;
+    font-family: 'Quicksand Light', sans-serif !important;
+
+}
+.our-team .our-teams{
+	width: 80%;
+	padding: 27px 0;
+	position: relative;
+    max-width: 1080px;
+    margin: auto;
+    text-align: left;
+}
+.our-team .our-teams img{
+	filter: saturate(0%);
+    width: 100%;
+}
+.our-team .our-teams h4{
+	font-family: 'Glegoo', serif !important;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 2em;
+    margin-top: 10px;
+}
+.our-team .our-teams h6{
+	font-size: 15px;
+    line-height: 2em;
+    display: inline-block;
+    margin: 1px 0 44px 0;
+    font-weight: 600;
+    color: #aaa;
+    font-family: 'Quicksand Light', sans-serif !important;
+}
+.our-clients{
+	width: 100%;
+	float: left;
+	padding: 4% 0;
+	text-align: center;
+}
+.our-clients h4{
+    color:  #000 !important;
+}
+.our-clients .clients-list{
+    width: 100%;
+    float: left;
+}
+.page-template-about .rw-ui-container.rw-size-medium a.rw-report-link {
+    display: none !important;
+}
+.page-template-about .rw-ui-container.rw-valign-middle  .rw-ui-info-container{
+    display: none !important;
+}
+.clients-list .rw-rating-table.rw-ltr.rw-left.rw-no-labels{
+    text-align: center;
+    display: inline-block;
+}
+.clients-list h4 p{
+    font-size: 18px;
+    color: #666;
+    line-height: 2em;
+    padding: 20px 64px;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300;
+    font-style: italic;
+}
+.clients-list .owl-carousel .owl-item{
+    padding: 10px 20px;
+}
+.clients-list .owl-carousel .owl-item img {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin-top: -25px;
+}
+.clients-list .owl-carousel .owl-nav button.owl-prev{
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 10px;
+}
+.clients-list .owl-carousel .owl-nav button.owl-next{
+    float: left;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+}
+.clients-list .owl-carousel .owl-nav button span{
+    font-size: 10rem;
+    color: #666;
+}
+.clients-list .owl-carousel .owl-item .item {
+    margin: 0px 30px;
+}
+.clients-list .owl-theme .owl-nav [class*=owl-]:hover{
+    background: none;
+}
+.clients-list button:focus {
+    outline: none;
+}
+.clients-list .owl-carousel .owl-nav button:hover span{
+    color: #ffc72c;
+}
+.clients-list .owl-theme .owl-dots .owl-dot.active span, .clients-list  .owl-theme .owl-dots .owl-dot:hover span {
+    background: #e61e26;
+}
+.clients-list  .owl-theme .owl-dots .owl-dot span{
+    background: #666666;
+    height: 20px;
+    width: 20px;
+}
+body .rw-rating-table.rw-ltr.rw-left.rw-no-labels{
+    display: none;
+}
+/* About Us Page styles ends here */
+
+
+
+/* Car rental Page styles start here */
+.page-template-carrental .section3{
+    padding: 3% 10% 5% 10%;
+}
+.list-cars.rental{
+    margin-bottom: 0;
+    text-align: center;
+}
+.list-cars.rental .btn.buTTon{
+    float: right;
+}
+
+/* Car rental Page styles ends here */
+
+
+/* Services Page styles start here */
+.services-list {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.services-list h2{
+    font-family: 'Montserrat', sans-serif !important;
+    color: #232628;
+    line-height: 1.4em;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+.services-list h2 span{
+   color: #e61e26d6;
+}
+.services-list .service-elements {
+    width: 80%;
+    display: inline-block;
+    text-align: left;
+    padding: 3% 0px;
+    border-bottom: 1px solid #ccc;
+}
+.services-list .content-element > p{
+    font-family: 'Quicksand Light', sans-serif !important;
+    color: #666;
+    margin: 3% 0;
+    font-size: 17px;
+    line-height: 1.8em;
+}
+.services-list .col-lg-8{
+    float: left;
+}
+.services-list .col-lg-4{
+    float: right;
+}
+.services-list .content-element h4{
+    text-align: left;
+    font-family: 'Quicksand Light', sans-serif !important;
+    font-weight: 700;
+    font-size: 17px;
+    color: #000;
+    margin: 20px 0 0 0;
+}
+.services-list ul.list-style-1{
+    margin-bottom: 16px;
+}
+.services-list ul.list-style-1 li {
+    position: relative;
+    font-family: 'Quicksand Light', sans-serif !important;
+    color: #666;
+    margin: 3% 0;
+    font-size: 15px;
+    line-height: 1.8em;
+    font-weight: 400;
+    padding-left: 27px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.services-list ul.list-style-1 li:before {
+    position: absolute;
+    content: '';
+    display: block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0,0);
+    left: 0;
+    top: 5px;
+    content: "\f00c";
+    font-size: 11px;
+    color: #e61e26d6;
+}
+.services-list .image-block{
+    margin-bottom: 8%;
+}
+.services-list .image-block img{
+    width: 100%;
+}
+
+.service-elements:nth-child(even) .col-lg-8{
+    float: right;
+}
+.service-elements:nth-child(even) .col-lg-4{
+    float: left;
+    padding-right: 35px;
+}
+.services-list .service-elements:nth-last-child(1){
+    border-bottom: 0;
+}
+/* Services Page styles ends here */
+
+/* Offers Page styles start here */
+.offers-list{
+    width: 100%;
+    float: left;
+    padding: 4% 0;
+    text-align: center;
+}
+.offer-list-items{
+    width: 100%;
+    float: left;
+}
+.offer-list-items .col-lg-4{
+    padding: 20px 15px;
+}
+.offer-list-items .col-lg-4 img{
+    width: 100%;
+}
+.page-template-offers .header-banner, .page-template-careers .header-banner, .page-template-contact .header-banner{
+    min-height: auto;
+}
+/* Offers Page styles ends here */
+
+/* Careers Page styles start here */
+.page-template-careers.page.inner-bpage .banner{
+    background-position: 55%;
+}
+.page-template-careers .slider_overLay{
+    background: rgba(0, 0, 0, 0.8);
+}
+.careers-list{
+    width: 100%;
+    float: left;
+    padding: 4% 0;
+    text-align: center;
+    background: #f5f4eb;
+}
+.careers-list h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.careers-list .jobs{
+    width: 80%;
+    margin: 1% 0px;
+    margin-bottom: 5%;
+    display: inline-block;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+.jobs #listing-items{
+    border-radius: 0;
+    display: flex;
+    padding: 25px;
+    border-left: 4px solid #f1630d;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    margin-top: -1px;
+    width: auto;
+    height: auto;
+    background: #fff;
+    background-color: #fff;
+}
+.jobs a#listing-items .listing-logo {
+    width: 60px;
+    min-width: 60px;
+    flex-wrap: wrap;
+    float: left;
+    margin: 0px;
+}
+.jobs a#listing-items .listing-logo img{
+    width: 100%;
+}
+.jobs-listing{
+    /*display: none;*/
+    cursor: pointer;
+}
+.jobs-listing h4{
+    font-family: Montserrat bold, Helvetica, Arial, sans-serif !important;
+    letter-spacing: 0;
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 5px;
+    color: #666;
+    margin-top: 2px;
+    text-align: left;
+}
+.jobs-listing h5{
+    margin-right: 0;
+    border-radius: 3px;
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    color: #888;
+    padding: 4px 8px;
+    line-height: 18px;
+    font-weight: 500;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    white-space: nowrap;
+    text-align: center;
+    min-width: 76px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Montserrat bold, Helvetica, Arial, sans-serif !important;
+}
+.jobs-listing .listing-title{
+    flex-wrap: wrap;
+    padding-left: 25px;
+}
+ul.listing-icons{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+}
+ul.listing-icons li{
+    display: inline-block;
+    margin-right: 13px;
+    color: #808080;
+    line-height: 29px;
+    font-family: Montserrat, Helvetica, Arial, sans-serif !important;
+}
+ul.listing-icons li img{
+    padding-bottom: 8px;
+}
+.jobs-listing.temporary{
+    border-left: 4px solid #e12335;
+}
+h5.job-type.temporary{
+    color: #e12335;
+    border: 1px solid #e12335;
+    background-color: rgba( 225,35,53,0.07);
+}
+.jobs-listing.part-time{
+    border-left: 4px solid #f1630d;
+}
+h5.job-type.part-time{
+    color: #f1630d;
+    border: 1px solid #f1630d;
+    background-color: rgba( 241,99,13,0.07);
+}
+.jobs-listing.full-time{
+    border-left: 4px solid #186fc9;
+}
+h5.job-type.full-time{
+    color: #186fc9;
+    border: 1px solid #186fc9;
+    background-color: rgba( 24,111,201,0.07);
+}
+.jobs-listing.freelance{
+    border-left: 4px solid #53b427;
+}
+h5.job-type.freelance{
+    color: #53b427;
+    border: 1px solid #53b427;
+    background-color: rgba( 83,180,39,0.07);
+}
+.jobs .jobs-listing:nth-child(1) a#listing-items{
+    background-color: #fffcee;
+}
+.jobs .jobs-listing a#listing-items:hover{
+    background-color: #fffcee;
+}
+.page-load{
+    width: 100%;
+    float: left;
+    margin-top: 4%;
+}
+.page-load #loadMore {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #ffc72c;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Montserrat bold, Helvetica, Arial, sans-serif !important;
+}
+#loadMore:hover {
+    background-color: #fff;
+    color: #0047bb;
+}
+.toggle-form{
+    /* display: none; */
+    text-align: center;
+    /* padding-top: 2%; */
+}
+.toggle-form div.wpcf7{
+    width: 62%;
+    display: inline-block;
+    padding: 30px 40px;
+    border-radius: 9px;
+    background: #fff;
+    box-shadow: 0px 10px 26px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+/* .toggle-form h3{
+    font-family: Montserrat bold, Helvetica, Arial, sans-serif !important;
+    font-size: 24px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #616161;
+    font-weight: 600;
+    margin: 20px 0;
+} */
+.toggle-form label{
+    width: 100%;
+    font-family: Montserrat bold, Helvetica, Arial, sans-serif !important;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    color: #000;
+}
+.toggle-form input[type=text], .toggle-form input[type=tel], .toggle-form input[type=email], .toggle-form textarea {
+    padding: 14px 18px;
+    outline: none;
+    font-size: 15px;
+    color: #909090;
+    margin: 0;
+    max-width: 100%;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    background-color: #fcfcfc;
+    font-weight: 500;
+    border: 1px solid #e0e0e0;
+    opacity: 1;
+    font-family: Montserrat bold, Helvetica, Arial, sans-serif !important;
+}
+
+.toggle-form input[type=submit] {
+  display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: #e61e26;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Montserrat bold, Helvetica, Arial, sans-serif !important;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.toggle-form input[type=submit]:hover {
+  background-color: #7f8084;
+  transition-delay: .1s;
+    transition-duration: 1s;
+}
+.toggle-form .col-lg-6, .toggle-form .col-lg-12{
+    margin-bottom: 15px;
+}
+/* Careers Page styles ends here */
+
+/* Contact Page styles starts here */
+.page-template-contact.page.inner-bpage .banner {
+    background-position: 50%;
+}
+.page-template-contact .slider_overLay{
+    background: rgba(49, 49, 49, 0.65);
+}
+.contact-us{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+.contact-us .cleft{
+    color: #fff;
+    padding: 5% 0 5% 10%;
+}
+.contact-us .cright p{
+    height: 100%;
+}
+.contact-us .cleft h3{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif !important;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.contact-us .cleft h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 15px 0px;
+}
+.contact-us .cleft p, .contact-us .cleft a{
+    font-family: Montserrat, Helvetica, Arial, sans-serif !important;
+    font-size: 15px;
+    color: #fff;
+    line-height: 2em;
+}
+.contact-us .cleft a:hover{
+    color: #ffc72c;
+}
+.contact-us .cleft .cmail{
+    margin: 32px 0;
+}
+.inqform{
+    width: 100%;
+    float: left;
+    padding: 4% 0;
+    text-align: center;
+}
+.inqform h2{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.inqform p{
+    font-size: 18px;
+    line-height: 1.8em;
+    max-width: 38%;
+    color: #9fa59f;
+    display: inline-block;
+    font-family: 'Quicksand Light', sans-serif !important;
+}
+.contact-block{
+    width: 100%;
+    padding-top: 2%;
+    float: left;
+}
+.contact-block input[type=text], .contact-block input[type=tel], .contact-block input[type=email], .contact-block textarea {
+    width: 100%;
+    padding: 16px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: #999;
+    background-color: #eee;
+    -webkit-appearance: none;
+    background-color: rgba(0,0,0,0);
+    border-width: 2px;
+    font-weight: 400;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.12);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif !important;
+}
+.contact-block div.wpcf7{
+    width: 70%;
+    display: inline-block;
+}
+.contact-block .col-lg-6, .contact-block .col-lg-12{
+    margin-bottom: 2%;
+    padding: 0 0 0 3%;
+}
+::placeholder {
+  color: #b1afaf;
+}
+.contact-block input[type=submit]{
+   
+    border: 0;
+   background: #e61e26;
+    color: #fff;
+    padding: 13px 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: uppercase;
+}
+
+.contact-block input[type=submit]:hover{
+
+   background: #7f8084;
+   transition-delay:.1s;
+   transition-duration:1s;
+  
+}
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-9-3 12:2:3
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation shadow-drop-2-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes shadow-drop-2-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(50px);
+            transform: translateZ(50px);
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes shadow-drop-2-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(50px);
+            transform: translateZ(50px);
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+.shadow-drop-2-center {
+    -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-9-3 12:13:5
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-fwd-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-fwd-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(160px);
+            transform: translateZ(160px);
+  }
+}
+@keyframes slide-fwd-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(160px);
+            transform: translateZ(160px);
+  }
+}
+
+.slide-fwd-center {
+    -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-9-3 12:16:2
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation rotate-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.rotate-center {
+    -webkit-animation: rotate-center 0.3s ease-in-out both;
+            animation: rotate-center 0.3s ease-in-out both;
+}
+
+
+.single.single-jobs .header-banner{
+    min-height: auto;
+}
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-9-3 16:45:20
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation rotate-hor-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes rotate-hor-center {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-360deg);
+            transform: rotateX(-360deg);
+  }
+}
+@keyframes rotate-hor-center {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-360deg);
+            transform: rotateX(-360deg);
+  }
+}
+
+.rotate-hor-center {
+    -webkit-animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+            animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2019-9-3 16:50:21
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation rotate-diagonal-2
+ * ----------------------------------------
+ */
+@-webkit-keyframes rotate-diagonal-2 {
+  0% {
+    -webkit-transform: rotate3d(-1, 1, 0, 0deg);
+            transform: rotate3d(-1, 1, 0, 0deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(-1, 1, 0, 180deg);
+            transform: rotate3d(-1, 1, 0, 180deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(-1, 1, 0, 360deg);
+            transform: rotate3d(-1, 1, 0, 360deg);
+  }
+}
+@keyframes rotate-diagonal-2 {
+  0% {
+    -webkit-transform: rotate3d(-1, 1, 0, 0deg);
+            transform: rotate3d(-1, 1, 0, 0deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(-1, 1, 0, 180deg);
+            transform: rotate3d(-1, 1, 0, 180deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(-1, 1, 0, 360deg);
+            transform: rotate3d(-1, 1, 0, 360deg);
+  }
+}
+
+
+.rotate-diagonal-2 {
+    -webkit-animation: rotate-diagonal-2 0.4s linear both;
+            animation: rotate-diagonal-2 0.4s linear both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2019-9-17 14:29:15
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation rotate-scale-down-ver
+ * ----------------------------------------
+ */
+@-webkit-keyframes rotate-scale-down-ver {
+  0% {
+    -webkit-transform: scale(1) rotateY(0);
+            transform: scale(1) rotateY(0);
+  }
+  50% {
+    -webkit-transform: scale(0.5) rotateY(180deg);
+            transform: scale(0.5) rotateY(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateY(360deg);
+            transform: scale(1) rotateY(360deg);
+  }
+}
+@keyframes rotate-scale-down-ver {
+  0% {
+    -webkit-transform: scale(1) rotateY(0);
+            transform: scale(1) rotateY(0);
+  }
+  50% {
+    -webkit-transform: scale(0.5) rotateY(180deg);
+            transform: scale(0.5) rotateY(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateY(360deg);
+            transform: scale(1) rotateY(360deg);
+  }
+}
+.rotate-scale-down-ver {
+	-webkit-animation: rotate-scale-down-ver 0.65s linear both;
+	        animation: rotate-scale-down-ver 0.65s linear both;
+}
+.single .careers-list h3{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 3%;
+}
+.single .careers-list .jobs-listing {
+    display: block;
+    width: 100%;
+    float: left;
+    padding: 0 0 2% 0;
+    border: 0;
+}
+.single .careers-list .toggle-form .listing-logo{
+    display: inline-block;
+}
+.single .careers-list .toggle-form .listing-logo img{
+    width: 100px;
+    height: auto;
+}
+.single .careers-list .toggle-form .jobs-listing .listing-title {
+    flex-wrap: wrap;
+    display: inline-block;
+    top: 15px;
+    padding-left: 25px;
+    position: relative;
+    padding-right: 5%;
+}
+.single .careers-list .toggle-form .jobs-listing h4 {
+    font-family: Montserrat bold, Helvetica, Arial, sans-serif !important;
+    letter-spacing: 0;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000;
+    padding-top: 0%;
+    margin-top: 2px;
+    font-weight: bold;
+    text-align: left;
+}
+.single .careers-list .toggle-form .listing-icons{
+    padding: 2% 0px;
+}
+.single .careers-list .toggle-form ul.listing-icons li{
+    color: #4a4a4a;
+}
+.single .careers-list .toggle-form h5.job-type{
+    right: 0;
+    top: 13px;
+}
+body.error404.inner-bpage .banner {
+    height: 550px;
+}
+p#sucs {
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    width: 100%;
+    margin-top: -42px;
+    color: green;
+    font-family: 'Quicksand', sans-serif !important;
+}
+/* Contact Page styles ends here */
+.footer-meunus .footer-wrap .ft3 li {
+    display: inline-block;
+    margin: 10px 0;
+}
+.footer-meunus .footer-wrap .ft3 li i.fab.fa-facebook-f {
+   /* padding: 11px 16px;*/
+}
+.footer-meunus .footer-wrap .ft3 li i.fab.fa-linkedin-in, .footer-meunus .footer-wrap .ft3 li i.fab.fa-instagram {
+   /* padding: 11px 13px;*/
+}
+.footer-meunus .footer-wrap .ft3 li i{
+   border: 1px solid #fff;
+    border-radius: 37px;
+    padding: 15px;
+    color: #e61e26;
+    background: #fff;
+    margin: 0 3px;
+    font-size: 17px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-meunus .footer-wrap .ft3 li i:hover{
+    color:#fff;
+    background-color:#e61e26;
+        transition-delay: .1s;
+    transition-duration: 1s;
+}
+/* Anju styles end here */
+
+/* My edits*/
+.page-id-18 .banner-title.aos-init.aos-animate {
+    display: none;
+}
+.slider_overLay {
+    display: none;
+}
+.section5.aos-init.aos-animate {
+    display: none;
+}
+span.wpcf7-form-control-wrap.file-819 {
+    padding: 10px 0px;
+    display: inline-block;
+}
+.toggle-form h3 {
+    padding: 10px 0px;
+}
+
+/*Service Single*/
+
+.fea-img img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.po-entry {
+    width: 70%;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 3%;
+}
+.fea-img {
+    display: inline-block;
+    width: 30%;
+    float: left;
+
+}
+div#po-content {
+    display: inline-block;
+    width: 100%;
+}
+.po-post {
+    display: inline-block;
+    width: 100%;
+    padding: 3% 0;
+}
+.po-entry p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.po-entry ul.list-style-1 li {
+    font-size: 15px;
+    line-height: 32px;
+        list-style-position: inside;
+}
+.po-entry .col-sm-12.col-md-6.col-lg-6 {
+    padding: unset !important;
+    padding: 10px 0px !important;
+}
+.po-entry h4 {
+    font-size: 18px;
+    margin-top: 5px;
+    display: inline-block;
+    width: 100%;
+}
+.po-title {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.footer-meunus .footer-wrap .blk-wrap li a {
+   text-transform: capitalize;
+}
+.footer-meunus .footer-wrap .ft4 {
+    width: 25% !important;
+    float: left;
+    box-sizing:border-box;
+}
+.footer-meunus .footer-wrap .blk-wrap {
+    padding: 0px 13px;
+    width: 22%;
+    box-sizing:border-box;
+}
+#faq-content .accordion {
+    background-color: #eee;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+#faq-content .active, #faq-content .accordion:hover {
+  background-color: #ccc; 
+}
+
+#faq-content .panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+div#faq-content {
+    display: inline-block;
+    width: 100%;
+    margin: 2% 0px;
+}
+.services-list h2 span {
+    color: #e61e26d6;
+    text-transform: uppercase;
+}
+.panel p {
+    font-size: 16px;
+    line-height: 30px;
+    padding: 10px 0px;
+}
+.single .rw-ui-mobile-wrapper {
+    display: none;
+}
+
+.banner .item-slide {
+    height: 100% !important;
+    background-size: cover !important;
+}
+.banner .bx-viewport {
+    height: 970px !important;
+}
+.banner .slider {
+    height: 100% !important;
+}
+.bx-wrapper {
+    border: 0px solid #fff !important;
+}
+
+ .headrlog{
+    
+    background: ##fff0 !important;
+    margin-top: 1px;
+    z-index: 99999;
+    float:right;
+    }
+    
+    .headrlog button:hover{
+          color: #f36d3b !important;
+    background: none;
+    border: none;
+       
+    }
+    
+    .headrlog button{
+        font-size:16px;
+    }
+    button#dropdownMenu1 .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    background: none;
+    border: none;
+}
+    .headrlog button:focus{
+       color: #0047bb !important;
+         background: none;
+    border: none;
+       
+    }
+    
+    .headrlog ul.dropdown-menu {
+        background: #fff;
+    }
+    .headrlog ul.dropdown-menu li a {
+       font-family: 'Roboto', sans-serif !important;
+    font-size: 14px;
+    }
+    
+.header-sidemenu{
+   position: absolute;
+    left: 60px;
+    min-width: 100%;
+    /* height: calc(100vh - 147px); */
+    height: 100vh;
+    top: 0;
+    padding-top: 134px;
+    left: 0;
+   
+}
+
+.header-sidemenu .menu-header ul li {
+    float:none !important;
+}
+
+.header-sidemenu .menu-header ul li a {
+    display:block !important;
+    padding: 10px 10px 10px 20px;
+}
+
+
+.rental-wrapper.car-list-pg .filter-bar{
+    position: relative !important;
+  /*  z-index: 9999 !important;*/
+ 
+}
+
+.rental-wrapper.car-list-pg.yellowbar{
+    padding-left:102px !important;
+}
+
+/*footer*/
+.footer-meunus{
+	width: 100%;
+	float: left;
+	background: #e61e26e0;
+	color: #fff;
+	padding: 4% 0;
+}
+.footer-meunus h4{
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-bottom: 6%;
+}
+.footer-meunus .footer-wrap {
+    width: 100%;
+    display: inline-block;
+}
+.footer-meunus .footer-wrap .ft1{
+	width: 25%;
+	float: left;
+}
+.footer-meunus .footer-wrap .ft2{
+	width: 25%;
+	float: left;
+}
+.footer-meunus .footer-wrap .ft3.blk-wrap{
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0px 0;
+}
+.footer-meunus .footer-wrap .ft3 h4{
+    padding-bottom: 0%;
+}
+.footer-meunus .footer-wrap .ft3 ul{
+    padding-left: 0px;
+}
+.footer-meunus .footer-wrap .ft4{
+	width: 25%;
+	float: left;
+}
+.footer-meunus .footer-wrap .ft5{
+	width: 25%;
+	float: left;
+}
+.footer-meunus .footer-wrap .blk-wrap{
+	padding: 0px 13px;
+}
+.footer-meunus .footer-wrap .blk-wrap li{
+	list-style: none;
+}
+.footer-meunus .footer-wrap .blk-wrap p{
+	font-size: 15px;
+	line-height: 2em;
+    font-family: 'Quicksand', sans-serif !important;
+}
+.footer-meunus .footer-wrap .blk-wrap:nth-child(5){
+	/* margin-right: 0; */
+}
+.footer-meunus .footer-wrap .blk-wrap li a {
+    color: #fff;
+    font-size: 15px;
+    line-height: 2em;
+    font-family: 'Quicksand', sans-serif !important;
+        text-transform: uppercase;
+}
+.footer-meunus #mc4wp-form-1 input[type=email]{
+	background: no-repeat;
+    border: 1px solid #fff;
+    width: 86%;
+    padding: 6px;
+}
+.footer-meunus .footer-wrap .blk-wrap li a:hover{
+    color: #d7d7d7;
+}
+.footer-meunus #mc4wp-form-1 input[type=submit]{
+	background: #fff;
+    box-shadow: none;
+    color: #e61e26;
+    text-transform: uppercase;
+    font-size: 17px;
+    border: 0;
+    font-weight: 700;
+    padding: 5px 27px;
+    margin-top: 10px;
+}
+.footer-meunus #mc4wp-form-1 input[type=submit]:hover{
+	background: #7f8084;
+    box-shadow: none;
+    color: #fff;
+    transition-delay:.1s;
+    transition-duration:1s;
+   
+}
+.section5{
+	width: 100%;
+    float: left;
+    background: #fec238;
+    overflow: hidden;
+    text-align: center;
+    padding: 3.5% 0;
+} 
+.section5 h1{
+	font-size: 55px;
+    color: #c0872c;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+.section6{
+	width: 100%;
+	color: #fff;
+    overflow: hidden;
+	float: left;
+	background-image: url('http://rentsolutions.hexeam.in/wp-content/uploads/2019/08/section-banner1.jpg');
+	padding-top: 2.5%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.section6 .content-wrap{
+	text-align: left;
+	margin-top: 8%;
+}
+.section6 .content-wrap h4{
+	font-size: 60px;
+    font-weight: 100;
+}
+.section6 .content-wrap h5{
+	font-size: 60px;
+    font-weight: 900;
+    margin: 1% 0;
+}
+.section6 .content-wrap p{
+	line-height: 2.2em;
+    font-weight: 400;
+    text-align: justify;
+    max-width: 72%;
+    margin: 6% 0;
+    font-size: 17px;
+    font-family: 'Quicksand Light', sans-serif !important;
+}
+.mobmenu-right-panel{
+	width: 100% !important;
+	background-color: #000000 !important;
+	text-align: center;
+}
+.footer-menu li:nth-child(1){
+	display: none;
+}
+ul#mobmenuright li.current-menu-item a{
+    color: #e61e26;
+}
+.footer-menu #menu-primary-1 .current-menu-item span{
+    display: none;
+}
+
+.mainfooter {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    margin-bottom: -5px;
+}
+.mainfooter{
+	font-family: 'Oswald', sans-serif !important; 
+}
+@media screen and (max-width: 768px){
+	.footer-meunus .footer-wrap .blk-wrap {
+	width: 100% !important;
+	margin-bottom: 4%;
+	/* text-align: center; */
+	}
+	}
+
+.car-list-pg-main #logo {
+    left: 0 !important; 
+    background: transparent !important; 
+}
+
+
+
+  .page-template-carrental .section3, .section3 {
+    padding: 5% 4% 0% 4%;
+  }
+
+/*.menu-right span {
+    display: none;
+}
+*/
+.activeitem{
+    color:#7f8084 ;
+}
+
+.header-top {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background: transparent;
+  -webkit-transition: all ease-out .5s;
+  -moz-transition: all ease-out .5s;
+  -o-transition: all ease-out .5s;
+  transition: all ease-out .5s;
+}
+.activee {
+  background-color: #fff;
+ height: 100px;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+button#carsearchbtn {
+    background: #e61e26;
+    border: 1px solid #e61e26;
+}
+
+button#carsearchbtn:hover {
+    background: #7f8084;
+   
+    border: 1px solid #7f8084;
+    transition-delay:.1s;
+    transition-duration:1s;
+}
+input.btn.btn-warning.btn-lg.btn-block.mx-auto.text-white {
+    background: #e61e26;
+     border: 1px solid #e61e26;
+}
+
+input.btn.btn-warning.btn-lg.btn-block.mx-auto.text-white:hover {
+     border: 1px solid #7f8084;
+       background: #7f8084;
+ transition-delay:.1s;
+    transition-duration:1s;
+}
+
+
+a.btn.btn-warning.btn-lg.btn-block.mx-auto.text-white {
+     background: #e61e26;
+     border: 1px solid #e61e26;
+}
+.rentout {
+    border: 1px solid #7f8084;
+    background: #7f8084 !important;
+}
+
+a.btn.btn-warning.btn-lg.btn-block.mx-auto.text-white:hover {
+      border: 1px solid #7f8084;
+       background: #7f8084;
+ transition-delay:.1s;
+    transition-duration:1s;
+}
+
+
+button.btn.btn-warning.btn-lg.btn-block.mx-auto.text-white {
+      background: #e61e26;
+     border: 1px solid #e61e26;
+}
+button.btn.btn-warning.btn-lg.btn-block.mx-auto.text-white:hover {
+      border: 1px solid #7f8084;
+       background: #7f8084;
+ transition-delay:.1s;
+    transition-duration:1s;
+}
+
+.actv a {
+    color: #e61e26 !important;
+}
+.rental-wrapper.car-list-pg.pdbb {
+    padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sidepanel {
+  position:relative;
+ 
+width:100%;
+  min-width:100px;
+  margin-left:0;
+  z-index:2;
+  font-size:1.5em;
+  line-height:1.5em;
+  color:#6d6f71;
+  background: #6d6f71;
+    height: 100%;
+ 
+  
+}
+.sidepanel li a {
+    color: #fff !important;
+}
+
+.sidepanel .actv a {
+    color: #e61e26 !important;
+}
+.sidepanel:before {
+  content:'';
+  position:absolute;
+  height:100%;
+  width:10px;
+  top:0;
+  left:100%;
+ background-image: linear-gradient(to left,#ededed,rgb(175 175 175 / 58%) 10px);
+  z-index:1;
+}
+.sidepanel span {
+  position:relative;
+  display:block;
+  width:calc(100% - 2em);
+  min-width:100px;  
+  padding:1em;
+  background-color:#01848f;
+}
+.line {
+  height:1px;
+  width:calc(100% - 44px);
+  background-color:#E9D985;
+  margin:0 22px;
+}
+.circle {
+position: absolute;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-size: 16px;
+    background-color: #e61e26;
+    color: #f1f1f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: calc(100% - 549px);
+    left: calc(100% - 22px);
+    z-index: 3;
+    cursor: pointer;
+}
+.fa-chevron-left {
+  margin-right:5px;
+}
+.fa-chevron-right {
+  margin-left:5px;
+}
+.hide {
+  display:none;
+}
+
+/*.logoimg  img{
+    width:85%;
+    margin-left:0em;
+}*/
+
+
+.logoimg  #logo img {
+    width: 62%;
+    margin-left: 2.5em;
+}
+
+.logoimg  #access {
+    /* padding: 2% 0 0 5.1%; */
+    padding: 2% 5px 0px 3.1%;
+    margin-bottom: 2%;
+}
+.logoimg  .headrlog {
+    background: ##fff0 !important;
+    margin-top: 0px;
+    z-index: 99999;
+    float: right;
+}
+
+
+.sidemenu-div {
+    width: 20%;
+    
+}
+
+.divmain {
+    display: flex;
+    flex-direction: row;
+}
+
+.rental-wrapper.car-list-pg.car-single-pg.car-summary-pg.reservation-pg.histry-pg {
+    padding-bottom: 0;
+}
+.histry-side {
+    overflow: scroll;
+    max-height: 800px;
+    height: 100%;
+    padding-left: 100px;
+        margin-bottom: 36px;
+}
+
+.rental-wrapper.car-list-pg.ntfictn {
+    padding-bottom: 0;
+}
+
+.rental-wrapper.car-list-pg.yellowbar.notfictn {
+    width: 70%;
+    /* padding-left: 102px !important; */
+    overflow: scroll;
+    max-height: 800px;
+    height: 100%;
+     margin-bottom: 36px;
+}
+
+
+
+.divmain.feedback .circle {
+  
+    top: calc(100% - 398px);
+    left: calc(100% - 22px);
+}
+
+.resrvdiv {
+    /*height: 100vh;*/
+    /*padding-left: 240px;*/
+}
+.rental-wrapper.car-list-pg.car-single-pg.car-summary-pg.reservation-pg {
+    padding-bottom: 0;
+}
+.resrvdiv {
+    min-height: 100vh;
+    padding-left: 100px;
+}
+.rental-wrapper.car-list-pg.trafc {
+    padding-bottom: 0;
+}
+
+.rental-wrapper.car-list-pg.yellowbar.traffic {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0 !important;
+    width: 70%;
+}
+
+.divmain.changepsrd  .circle {
+   
+    top: calc(100% - 302px);
+    left: calc(100% - 22px);
+    
+}
+
+.dropdown.Choose.filterstyle form {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.dropdown.Choose.headrlog.open  .dropdown-menu>li>a {
+    display: block;
+    padding: 3px 11px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+input#VerificationCode {
+    padding: 9.5px 0;
+}
+
+.inqform  div.wpcf7 {
+    width: 62%;
+    display: inline-block;
+    padding: 30px 40px;
+    border-radius: 9px;
+    background: #fff;
+    box-shadow: 0px 10px 26px -7px #000000, 5px 5px 15px 5px rgb(0 0 0 / 0%);
+}
+
+#contactForm .input-field.dttymfld {
+    width: 100%;
+   
+    border: 0;
+    font-family: 'Quicksand', sans-serif !important;
+    outline: none;
+   
+    font-size: 16px;
+    border: 1px solid #afafaf;
+    margin-right: 1em;
+    border-radius: 9px;
+     padding: 17px 20px;
+}
+
+#contactForm .input-containerd {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+   
+    padding: 12px 0px;
+    border-radius: 9px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+input#VerificationCode::placeholder {
+    font-size:16px;
+    padding-left:2em;
+}
+
+.mrgleft{
+        margin-left: 24px;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.flag {
+    display: flex;
+    margin-top:2px;
+}
+.banner::after {
+    content: '';
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+
+.banner-title {
+    z-index: 111;
+}
+
+.bg-white .banner::after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 0%;
+    opacity: .5;
+}
+.download-app img {
+    margin-top: -6px;
+}
+
+
+.call__badge a {
+    color: white;
+    transform: rotate(270deg);
+}
+.call__badge a:hover {
+    color: white;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2022-8-6 12:1:26
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation vibrate-1
+ * ----------------------------------------
+ */
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+
+
+
+.call__badge {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999;
+    background: #29d350;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 8px 1px #000000ba;
+    color: #e61e26;
+    -webkit-animation: vibrate-1 0.5s linear 1.5s 3 both;
+	        animation: vibrate-1 0.5s linear 1.5s 3 both;
+}
+.image__section img {
+    max-width: 100%;
+    display: block;
+    margin: 25px auto;
+}
+
+@media screen and (max-width: 768px){
+    .call__badge {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+    .image__section img {
+    max-width: 85%;
+    }
+}
+
+
+
+.menu-right {
+    position: relative;
+}
+/*.headrlog.pro-responsive {*/
+/*    position: absolute;*/
+/*    right: -75%;*/
+/*    bottom: -37px;*/
+/*}*/
+.headrlog button {
+    font-size: 14px;
+}
+/*.arabic-render .headrlog.pro-responsive {*/
+/*    position: absolute;*/
+/*    right: unset;*/
+/*    bottom: -25px;*/
+/*    left: -72%;*/
+/*}*/
+/*@media screen and (max-width: 1280px){*/
+/*.headrlog.pro-responsive {*/
+/*    position: absolute;*/
+/*    right: -50%;*/
+/*    bottom: -40px;*/
+/*}*/
+/*.arabic-render .headrlog.pro-responsive {*/
+/*    position: absolute;*/
+/*    right: unset;*/
+/*    bottom: -25px;*/
+/*    left: -60%;*/
+/*}*/
+/*}*/
+@media screen and (max-width: 1119px){
+
+.headrlog.pro-responsive {
+    position: absolute;
+    right: -40%;
+    bottom: -44px;
+}
+.arabic-render .headrlog.pro-responsive {
+    position: absolute;
+    right: unset;
+    bottom: -25px;
+    left: -45%;
+}
+}
+
+@media screen and (max-width: 1024px){
+  .headrlog.pro-responsive, .arabic-render .headrlog.pro-responsive {
+    position: unset;
+    right: 0%;
+    bottom: -0px;
+    left:0;
+}
+}
+.headrlog.pro-responsive {
+    position: unset;
+    right: 0%;
+    bottom: 0px;
+}
+}
+
+
+.sidemenu-div {
+  min-height: 100vh;
+}
+
+.divmain {
+  min-height: 100vh;
+}
+.divmain > div:nth-child(2) {
+  min-width: 70%;
+  box-sizing: border-box;
+}
+.circle {
+  top: 25px;
+}
+.divmain.feedback .circle, .divmain.changepsrd .circle {
+  top: 25px;
+}
+label {
+  font-weight: 500 !important;
+}
+#billing-addrs input, #billing-addrs input::placeholder, #billing-addrs textarea {
+  font-size: 14px;
+}
+#billing-addrs label {
+  font-size: 16px;
+}
+#billing-addrs select {
+  font-size: 14px !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+#billing-addrs .btn.btn-warning.btn-lg.btn-block.mx-auto.text-white {
+  font-size: 16px !important;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.list-details .txt {
+    font-family: 'Roboto', sans-serif !important;
+}
+.dropdown-menu {
+  right: 0;
+  left: unset !important;
+}
+
+@media only screen and (max-width: 480px) {
+.divmain > div:nth-child(2) {
+  min-width: auto;
+  box-sizing: border-box;
+}
+.search-form form {
+  padding: 50px 20px;
+}
+.search-form form label {
+  font-size: 16px;
+  font-weight: 500;
+}
+.circle {
+  top: 25px;
+  cursor: pointer;
+}
+.divmain.feedback .circle, .divmain.changepsrd .circle {
+  top: 25px;
+}
+}
+
+
+/* Start Gallery CSS */
+.thumb {
+	margin-bottom: 15px;
+}
+.thumb:last-child {
+	margin-bottom: 0;
+}
+/* CSS Image Hover Effects: https://www.nxworld.net/tips/css-image-hover-effects.html */
+.thumb figure img {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  border:none ;
+  padding: 0;
+  height: 175px;
+     object-fit: cover;
+     width: 100%;
+}
+.thumb figure:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid white;
+    background-color: white;
+}
+
+
+
+/* Style the buttons inside the tab */
+
+.tab button.tablinks-tab {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: black;
+    min-width: 90px;
+    text-align: center;
+}
+
+/* Change background color of button.tablinks-tabs on hover */
+/*.tab button.tablinks-tab:hover {
+    background-color: #ececec;
+}*/
+
+/* Create an active/current tablink class */
+.tab button.tablinks-tab.active-tab {
+    background-color: #e61e26;
+    color: white;
+}
+
+/* Style the tab content */
+.tabcontent-tab {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+section.tabbedGallery {
+    padding-top: 100px ;
+    padding-bottom: 100px ;
+}
+.thumb h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: #00000082;
+}
+.thumb a{
+	position: relative;
+}
+.thumb a:hover h3 {
+    display: flex;
+    color: white;
+    z-index: 99;
+    font-size: 20px;
+    background: #00000099;
+}
+.gallery {
+    padding: 30px 0 10px;
+}
+.ui-timepicker-standard {
+ 
+    z-index: 99999 !important;
+}
+
+/*********************************************************/
+
+@media only screen and (max-width: 768px) {
+	.thumb figure img {
+	    height: 220px;
+	    object-fit: cover;
+	    width: 100%;
+	}
+}
